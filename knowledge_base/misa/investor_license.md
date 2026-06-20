@@ -21,8 +21,8 @@ ownership in most activities, subject to the activity code and sector.
 
 - Foreign nationals establishing a wholly foreign-owned entity.
 - Foreign investors taking equity in Saudi companies.
-- Regional or strategic investors planning a multi-country mandate (see the RHQ
-  Programme).
+- Regional or strategic investors planning a multi-country mandate (see the
+  [RHQ Programme](https://misa.gov.sa/en/rhq)).
 
 Saudi-national founders typically register through the national portal
 (my.gov.sa) rather than MISA.

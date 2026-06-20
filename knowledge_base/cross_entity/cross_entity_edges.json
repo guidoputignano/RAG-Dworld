@@ -1,0 +1,29 @@
+{
+  "_comment": "Manually curated cross-source edges. These capture relationships that span source documents and that the per-source extractor cannot see. Endpoints are fully namespaced node ids (namespace::local_id). Edges whose endpoints are not present in the federated graph (e.g. sources not yet ingested) are skipped at merge time and reported, not dropped silently.",
+  "edges": [
+    {
+      "source": "monshaat::funding_routes",
+      "target": "misa::investor_license",
+      "type": "REQUIRES",
+      "note": "Foreign founders must register with MISA before accessing SME support."
+    },
+    {
+      "source": "misa::investor_license",
+      "target": "monshaat::incubators_accelerators",
+      "type": "ENABLES",
+      "note": "Once incorporated via MISA, founders can access Monshaat programmes."
+    },
+    {
+      "source": "misa::service_manual",
+      "target": "monshaat::kafalah_program",
+      "type": "SUPPORTS",
+      "note": "MISA registration is the precondition for bank financing routes like Kafalah."
+    },
+    {
+      "source": "monshaat::funding_routes",
+      "target": "svc::partner_funds",
+      "type": "REFERENCES",
+      "note": "Dangling on purpose until the SVC source is ingested; demonstrates skip-and-report."
+    }
+  ]
+}

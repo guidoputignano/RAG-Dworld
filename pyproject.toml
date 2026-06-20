@@ -19,7 +19,8 @@ dependencies = [
     # api (Phase 7)
     "fastapi>=0.110",
     "uvicorn>=0.29",
-    # retrieval (Phase 5)
+    # graph + retrieval (Phase 4-5)
+    "networkx>=3.0",
     "numpy>=1.26",
 ]
 

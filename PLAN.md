@@ -242,6 +242,14 @@ Each phase: code + a test + a one-line note appended to PLAN.md, **then pause.**
   HTML→markdown, PDF-link + internal-link discovery, slugging. 8 new tests (29
   total) pass.
 
+- **Phase 4 ✅** — Per-source graph extraction (Graphify-equivalent, pluggable;
+  `DeterministicExtractor` default: page→node, in-body sibling links→intra edges)
+  → `graphs/<ns>.json`, then `builder.py` merges into `federated_graph.json` with
+  `namespace::` injected into every node id + edge endpoint, and folds in the
+  curated `cross_entity/cross_entity_edges.json` (validates endpoints; dangling
+  edges skipped **and reported**, not dropped). Fixture build: 8 nodes, 5 edges
+  (2 intra + 3 cross, 1 dangling skipped). 7 new tests (36 total) pass.
+
 ## 8. Definition of done
 
 Replay the **Sample Conversation Flow** from each persona tab as a regression

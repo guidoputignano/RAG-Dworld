@@ -27,7 +27,8 @@ specific venture fund should be named as "the best."
 - Equity: SVC's public partner-fund list at https://www.svc.com.sa/en, and
   MAGNiTT (https://magnitt.com) for MENA VC benchmarks.
 - Support: Monshaat at https://www.monshaat.gov.sa/en.
-- Debt: a Kafalah-participating bank.
+- Debt: the [Kafalah loan guarantee programme](https://www.monshaat.gov.sa/en/kafalah)
+  via a participating bank.
 
 ## Next step
 
