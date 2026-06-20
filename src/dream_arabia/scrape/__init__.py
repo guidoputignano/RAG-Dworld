@@ -29,4 +29,9 @@ __all__ = [
     "scrape_url",
     "fetch_static",
     "fetch_js",
+    "crawl_source",
+    "crawl_all",
+    "CrawlResult",
 ]
+
+from .crawl import crawl_source, crawl_all, CrawlResult
