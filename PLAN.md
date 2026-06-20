@@ -235,6 +235,13 @@ Each phase: code + a test + a one-line note appended to PLAN.md, **then pause.**
   Running headers/footers (incl. page-numbered footers) stripped; CLI + library
   API. 5 new tests (21 total) pass.
 
+- **Phase 3 ✅** — Scraper: httpx (static) + Playwright (JS, lazy/optional) →
+  markdownify → frontmatter markdown, same shape as PDFs. **Live scraping off by
+  default** (`ensure_allowed` refuses unless `DREAM_SCRAPE_LIVE=true`, and
+  refuses Saudi-IP sources without a proxy/egress). Pure offline path:
+  HTML→markdown, PDF-link + internal-link discovery, slugging. 8 new tests (29
+  total) pass.
+
 ## 8. Definition of done
 
 Replay the **Sample Conversation Flow** from each persona tab as a regression
