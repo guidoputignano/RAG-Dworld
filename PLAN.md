@@ -267,6 +267,14 @@ Each phase: code + a test + a one-line note appended to PLAN.md, **then pause.**
   guaranteed outcomes, tax-rate-without-source, visa determinations). History
   capped at 6 turns; persona switch resets active nodes. 17 new tests (56 total).
 
+- **Phase 7 ✅** — FastAPI: `POST /session/start` (persona → session + greeting),
+  `/session/message` (cited answer + guardrail report), `/session/switch` (resets
+  active nodes), plus `/health` and `/personas`. In-memory `SessionStore` with a
+  documented Redis seam (`get_session_store`, `DREAM_SESSION_BACKEND`). Agent
+  built once and shared; `create_app` supports injection for tests. Scaffolded
+  personas rejected (409), unknown session/persona 404, empty message 422. 9 new
+  tests (65 total) pass.
+
 ## 8. Definition of done
 
 Replay the **Sample Conversation Flow** from each persona tab as a regression
