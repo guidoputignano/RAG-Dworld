@@ -9,7 +9,10 @@ from __future__ import annotations
 from pathlib import Path
 
 from fastapi import Depends, FastAPI, HTTPException
+from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
+
+UI_INDEX = Path(__file__).resolve().parent.parent / "ui" / "index.html"
 
 from config import PERSONAS, LAUNCH_PERSONAS
 from ..agent.core import Agent, AgentResponse
@@ -118,6 +121,12 @@ def create_app(agent: Agent | None = None, store: SessionStore | None = None) ->
 
     def get_store() -> SessionStore:
         return app.state.store
+
+    @app.get("/", response_class=HTMLResponse)
+    def ui():
+        if UI_INDEX.exists():
+            return HTMLResponse(UI_INDEX.read_text(encoding="utf-8"))
+        return HTMLResponse("<h1>Dream Arabia</h1><p>UI not found.</p>", status_code=404)
 
     @app.get("/health")
     def health():

@@ -275,6 +275,14 @@ Each phase: code + a test + a one-line note appended to PLAN.md, **then pause.**
   personas rejected (409), unknown session/persona 404, empty message 422. 9 new
   tests (65 total) pass.
 
+- **Phase 8 ✅** — Minimal persona-picker UI (served at `/`, calls the API,
+  shows citations + guardrail flags) and the **Definition-of-Done regression**:
+  `config/sample_flows.py` extracts each persona tab's Sample Conversation Flow;
+  `dream_arabia/smoke.py` + `scripts/run_sample_conversations.py` replay the
+  launch personas (P1, P2) and assert each answer cites a source, ends with the
+  handoff URL + named action, and has no HARD guardrail violation. Script reports
+  ALL PASS; 6 new tests (71 total) pass. **Build complete.**
+
 ## 8. Definition of done
 
 Replay the **Sample Conversation Flow** from each persona tab as a regression
