@@ -229,6 +229,12 @@ Each phase: code + a test + a one-line note appended to PLAN.md, **then pause.**
   committed JSON snapshot, `.env.example` (offline-safe defaults), frontmatter
   markdown util, and 4+4 fixtures for misa/monshaat. 16 tests pass.
 
+- **Phase 2 ✅** — PDF extraction pipeline: `pdfplumber` text → pluggable **OCR
+  fallback** (Tesseract if installed, else `NullOCR` that flags pages —
+  offline-safe) → frontmatter markdown identical in shape to scraped pages.
+  Running headers/footers (incl. page-numbered footers) stripped; CLI + library
+  API. 5 new tests (21 total) pass.
+
 ## 8. Definition of done
 
 Replay the **Sample Conversation Flow** from each persona tab as a regression
