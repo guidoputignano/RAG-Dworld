@@ -221,6 +221,14 @@ Each phase: code + a test + a one-line note appended to PLAN.md, **then pause.**
 
 ---
 
+### Phase notes (appended as each phase completes)
+
+- **Phase 1 ✅** — Scaffold + config done. `SOURCES` (42 entities, 4 tiers),
+  `PERSONA_NAMESPACE_MAP` (derived from source membership), `PDF_LIBRARY` (10),
+  guardrails parsed from the Excel into 47 rules (33 HARD / 14 SOFT) with a
+  committed JSON snapshot, `.env.example` (offline-safe defaults), frontmatter
+  markdown util, and 4+4 fixtures for misa/monshaat. 16 tests pass.
+
 ## 8. Definition of done
 
 Replay the **Sample Conversation Flow** from each persona tab as a regression

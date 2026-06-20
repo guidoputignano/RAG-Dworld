@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dream-arabia"
+version = "0.1.0"
+description = "Dream Arabia — persona-switchable RAG agent for Saudi government programs, cited to official sources."
+requires-python = ">=3.10"
+dependencies = [
+    # config / data
+    "openpyxl>=3.1",
+    "pyyaml>=6.0",
+    # pdf extraction (Phase 2)
+    "pdfplumber>=0.11",
+    # scraping (Phase 3) — kept optional-ish; off by default
+    "httpx>=0.27",
+    "markdownify>=0.13",
+    # api (Phase 7)
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    # retrieval (Phase 5)
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=2.7"]
+scrape = ["playwright>=1.44"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# Make both the top-level `config` package and the `src/` package importable
+# in tests without an editable install.
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
