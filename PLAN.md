@@ -250,6 +250,13 @@ Each phase: code + a test + a one-line note appended to PLAN.md, **then pause.**
   edges skipped **and reported**, not dropped). Fixture build: 8 nodes, 5 edges
   (2 intra + 3 cross, 1 dangling skipped). 7 new tests (36 total) pass.
 
+- **Phase 5 ✅** — Query engine over the federated graph: `get_nodes_by_namespace`,
+  `semantic_search` (embedding similarity with a namespace *filter*, not a wall)
+  and `traverse(start, max_hops)` BFS that follows cross-namespace edges.
+  Pluggable embeddings (`fake` default / `local` sentence-transformers /
+  `openrouter`) + in-memory NumPy cosine vector store (pgvector adapter stubbed
+  behind the same interface). 12 new tests (45 total) pass.
+
 ## 8. Definition of done
 
 Replay the **Sample Conversation Flow** from each persona tab as a regression

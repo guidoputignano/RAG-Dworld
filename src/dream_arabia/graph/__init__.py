@@ -14,6 +14,7 @@ from .builder import (
     BuildReport,
     FEDERATED_FILE,
 )
+from .query import QueryEngine
 
 __all__ = [
     "GNode",
@@ -32,4 +33,5 @@ __all__ = [
     "discover_source_dirs",
     "BuildReport",
     "FEDERATED_FILE",
+    "QueryEngine",
 ]
