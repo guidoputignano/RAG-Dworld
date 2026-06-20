@@ -257,6 +257,16 @@ Each phase: code + a test + a one-line note appended to PLAN.md, **then pause.**
   `openrouter`) + in-memory NumPy cosine vector store (pgvector adapter stubbed
   behind the same interface). 12 new tests (45 total) pass.
 
+- **Phase 6 ✅** — Agent core: persona→entry namespaces, semantic search +
+  cross-source traverse (1 hop from retrieved, 2 from prior active nodes), cited
+  context formatting, LLM via **OpenRouter** (configurable model) with an offline
+  **MockLLM** that composes compliant answers from the structured context.
+  **Guardrail engine** renders persona HARD/SOFT rules into the system prompt and
+  validates/enforces output (handoff URL + named action, statistics carry
+  source+year, negation-aware HARD forbidden patterns: eligibility confirmation,
+  guaranteed outcomes, tax-rate-without-source, visa determinations). History
+  capped at 6 turns; persona switch resets active nodes. 17 new tests (56 total).
+
 ## 8. Definition of done
 
 Replay the **Sample Conversation Flow** from each persona tab as a regression
