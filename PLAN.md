@@ -221,6 +221,68 @@ Each phase: code + a test + a one-line note appended to PLAN.md, **then pause.**
 
 ---
 
+### Phase notes (appended as each phase completes)
+
+- **Phase 1 ✅** — Scaffold + config done. `SOURCES` (42 entities, 4 tiers),
+  `PERSONA_NAMESPACE_MAP` (derived from source membership), `PDF_LIBRARY` (10),
+  guardrails parsed from the Excel into 47 rules (33 HARD / 14 SOFT) with a
+  committed JSON snapshot, `.env.example` (offline-safe defaults), frontmatter
+  markdown util, and 4+4 fixtures for misa/monshaat. 16 tests pass.
+
+- **Phase 2 ✅** — PDF extraction pipeline: `pdfplumber` text → pluggable **OCR
+  fallback** (Tesseract if installed, else `NullOCR` that flags pages —
+  offline-safe) → frontmatter markdown identical in shape to scraped pages.
+  Running headers/footers (incl. page-numbered footers) stripped; CLI + library
+  API. 5 new tests (21 total) pass.
+
+- **Phase 3 ✅** — Scraper: httpx (static) + Playwright (JS, lazy/optional) →
+  markdownify → frontmatter markdown, same shape as PDFs. **Live scraping off by
+  default** (`ensure_allowed` refuses unless `DREAM_SCRAPE_LIVE=true`, and
+  refuses Saudi-IP sources without a proxy/egress). Pure offline path:
+  HTML→markdown, PDF-link + internal-link discovery, slugging. 8 new tests (29
+  total) pass.
+
+- **Phase 4 ✅** — Per-source graph extraction (Graphify-equivalent, pluggable;
+  `DeterministicExtractor` default: page→node, in-body sibling links→intra edges)
+  → `graphs/<ns>.json`, then `builder.py` merges into `federated_graph.json` with
+  `namespace::` injected into every node id + edge endpoint, and folds in the
+  curated `cross_entity/cross_entity_edges.json` (validates endpoints; dangling
+  edges skipped **and reported**, not dropped). Fixture build: 8 nodes, 5 edges
+  (2 intra + 3 cross, 1 dangling skipped). 7 new tests (36 total) pass.
+
+- **Phase 5 ✅** — Query engine over the federated graph: `get_nodes_by_namespace`,
+  `semantic_search` (embedding similarity with a namespace *filter*, not a wall)
+  and `traverse(start, max_hops)` BFS that follows cross-namespace edges.
+  Pluggable embeddings (`fake` default / `local` sentence-transformers /
+  `openrouter`) + in-memory NumPy cosine vector store (pgvector adapter stubbed
+  behind the same interface). 12 new tests (45 total) pass.
+
+- **Phase 6 ✅** — Agent core: persona→entry namespaces, semantic search +
+  cross-source traverse (1 hop from retrieved, 2 from prior active nodes), cited
+  context formatting, LLM via **OpenRouter** (configurable model) with an offline
+  **MockLLM** that composes compliant answers from the structured context.
+  **Guardrail engine** renders persona HARD/SOFT rules into the system prompt and
+  validates/enforces output (handoff URL + named action, statistics carry
+  source+year, negation-aware HARD forbidden patterns: eligibility confirmation,
+  guaranteed outcomes, tax-rate-without-source, visa determinations). History
+  capped at 6 turns; persona switch resets active nodes. 17 new tests (56 total).
+
+- **Phase 7 ✅** — FastAPI: `POST /session/start` (persona → session + greeting),
+  `/session/message` (cited answer + guardrail report), `/session/switch` (resets
+  active nodes), plus `/health` and `/personas`. In-memory `SessionStore` with a
+  documented Redis seam (`get_session_store`, `DREAM_SESSION_BACKEND`). Agent
+  built once and shared; `create_app` supports injection for tests. Scaffolded
+  personas rejected (409), unknown session/persona 404, empty message 422. 9 new
+  tests (65 total) pass.
+
+- **Phase 8 ✅** — Minimal persona-picker UI (served at `/`, calls the API,
+  shows citations + guardrail flags) and the **Definition-of-Done regression**:
+  `config/sample_flows.py` extracts each persona tab's Sample Conversation Flow;
+  `dream_arabia/smoke.py` + `scripts/run_sample_conversations.py` replay the
+  launch personas (P1, P2) and assert each answer cites a source, ends with the
+  handoff URL + named action, and has no HARD guardrail violation. Script reports
+  ALL PASS; 6 new tests (71 total) pass. **Build complete.**
+
 ## 8. Definition of done
 
 Replay the **Sample Conversation Flow** from each persona tab as a regression

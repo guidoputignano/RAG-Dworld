@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dream Arabia</title>
+  <style>
+    :root { --ink:#0f2742; --aqua:#0bb5a6; --bg:#f5f7fa; --line:#dce3ec; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+           background:var(--bg); color:var(--ink); }
+    header { background:var(--ink); color:#fff; padding:16px 20px; }
+    header h1 { margin:0; font-size:18px; letter-spacing:.5px; }
+    header p { margin:4px 0 0; font-size:13px; opacity:.8; }
+    main { max-width:820px; margin:0 auto; padding:20px; }
+    .personas { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
+    .persona { border:1px solid var(--line); background:#fff; border-radius:999px;
+               padding:8px 14px; cursor:pointer; font-size:14px; }
+    .persona[aria-pressed="true"] { background:var(--aqua); color:#fff; border-color:var(--aqua); }
+    .persona[disabled] { opacity:.45; cursor:not-allowed; }
+    #chat { background:#fff; border:1px solid var(--line); border-radius:12px; min-height:320px;
+            padding:14px; overflow-y:auto; max-height:55vh; }
+    .msg { margin:10px 0; line-height:1.45; font-size:14px; white-space:pre-wrap; }
+    .msg.user { text-align:right; }
+    .msg .bubble { display:inline-block; padding:10px 12px; border-radius:12px; max-width:90%; }
+    .msg.user .bubble { background:var(--ink); color:#fff; }
+    .msg.bot .bubble { background:#eef3f8; }
+    .cite { font-size:12px; color:#5a6b80; margin-top:4px; }
+    .flag { font-size:12px; color:#b00; margin-top:4px; }
+    form { display:flex; gap:8px; margin-top:12px; }
+    input[type=text] { flex:1; padding:10px 12px; border:1px solid var(--line); border-radius:10px; font-size:14px; }
+    button.send { background:var(--aqua); color:#fff; border:0; border-radius:10px; padding:0 16px; cursor:pointer; }
+    .hint { font-size:12px; color:#5a6b80; margin-top:8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dream Arabia</h1>
+    <p>What brings you to Saudi Arabia today? Pick a persona, then ask anything — answers cite official sources.</p>
+  </header>
+  <main>
+    <div class="personas" id="personas"></div>
+    <div id="chat" aria-live="polite"></div>
+    <form id="composer">
+      <input type="text" id="message" placeholder="Select a persona to begin…" autocomplete="off" disabled />
+      <button class="send" type="submit" disabled id="sendBtn">Send</button>
+    </form>
+    <div class="hint" id="hint"></div>
+  </main>
+
+  <script>
+    let sessionId = null;
+    let persona = null;
+    const chat = document.getElementById('chat');
+    const input = document.getElementById('message');
+    const sendBtn = document.getElementById('sendBtn');
+    const hint = document.getElementById('hint');
+
+    function addMsg(text, who, extraHtml='') {
+      const div = document.createElement('div');
+      div.className = 'msg ' + who;
+      div.innerHTML = `<div class="bubble">${escapeHtml(text)}</div>${extraHtml}`;
+      chat.appendChild(div);
+      chat.scrollTop = chat.scrollHeight;
+    }
+    function escapeHtml(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+
+    async function loadPersonas() {
+      const data = await (await fetch('/personas')).json();
+      const box = document.getElementById('personas');
+      for (const [pid, p] of Object.entries(data)) {
+        const b = document.createElement('button');
+        b.className = 'persona';
+        b.textContent = `${p.name}${p.status !== 'active' ? ' (soon)' : ''}`;
+        b.setAttribute('aria-pressed', 'false');
+        if (p.status !== 'active') b.disabled = true;
+        b.onclick = () => choose(pid, b);
+        box.appendChild(b);
+      }
+    }
+
+    async function choose(pid, btn) {
+      document.querySelectorAll('.persona').forEach(x => x.setAttribute('aria-pressed','false'));
+      btn.setAttribute('aria-pressed','true');
+      const endpoint = sessionId ? '/session/switch' : '/session/start';
+      const payload = sessionId ? { session_id: sessionId, persona: pid } : { persona: pid };
+      const res = await fetch(endpoint, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)});
+      if (!res.ok) { hint.textContent = 'Could not start that persona.'; return; }
+      const body = await res.json();
+      sessionId = body.session_id; persona = pid;
+      chat.innerHTML = '';
+      addMsg(body.greeting, 'bot');
+      input.disabled = false; sendBtn.disabled = false;
+      input.placeholder = 'Ask a question…'; input.focus();
+    }
+
+    document.getElementById('composer').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const text = input.value.trim();
+      if (!text || !sessionId) return;
+      addMsg(text, 'user'); input.value = '';
+      const res = await fetch('/session/message', {method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({session_id: sessionId, message: text})});
+      const body = await res.json();
+      let cites = '';
+      if (body.citations && body.citations.length) {
+        const items = body.citations.map(c => `${c.name}${c.year ? ' ('+c.year+')' : ''}`);
+        cites = `<div class="cite">Sources: ${[...new Set(items)].join(' · ')}</div>`;
+      }
+      let flag = body.guardrails_ok ? '' : `<div class="flag">⚠ guardrail check: ${body.violations.map(v=>v.kind).join(', ')}</div>`;
+      addMsg(body.answer, 'bot', cites + flag);
+    });
+
+    loadPersonas();
+  </script>
+</body>
+</html>
