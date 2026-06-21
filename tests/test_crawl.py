@@ -4,6 +4,11 @@ from pathlib import Path
 from dream_arabia import markdown_io
 from dream_arabia.scrape.scraper import ScrapeConfig
 from dream_arabia.scrape.crawl import crawl_source, crawl_all
+from config import SOURCES
+
+# Access flags are measured (the audit can flip a source open), so don't
+# hard-code a gated source — pick whichever is currently saudi_ip.
+SAUDI_IP_NS = next(ns for ns, s in SOURCES.items() if s.requires_saudi_ip)
 
 LANDING = """
 <html><head><title>DataSaudi</title></head><body>
@@ -55,16 +60,16 @@ def test_crawl_extracts_linked_pdf(tmp_path):
 
 def test_saudi_ip_source_skipped_without_proxy(tmp_path):
     cfg = ScrapeConfig(live=True)  # no proxy
-    res = crawl_source("misa", cfg, out_dir=tmp_path, fetch_html=_fake_html)
+    res = crawl_source(SAUDI_IP_NS, cfg, out_dir=tmp_path, fetch_html=_fake_html)
     assert res.skipped and "Saudi" in res.skipped
 
 
 def test_crawl_all_only_open_skips_saudi(tmp_path):
     cfg = ScrapeConfig(live=True)
-    results = crawl_all(cfg, out_dir=tmp_path, namespaces=["datasaudi", "misa"],
+    results = crawl_all(cfg, out_dir=tmp_path, namespaces=["datasaudi", SAUDI_IP_NS],
                         only_open=True, max_pages=1, fetch_html=_fake_html)
     by_ns = {r.namespace: r for r in results}
-    assert by_ns["misa"].skipped
+    assert by_ns[SAUDI_IP_NS].skipped
     assert by_ns["datasaudi"].skipped is None
 
 

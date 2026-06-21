@@ -1,29 +1,4 @@
 {
-  "_comment": "Manually curated cross-source edges. These capture relationships that span source documents and that the per-source extractor cannot see. Endpoints are fully namespaced node ids (namespace::local_id). Edges whose endpoints are not present in the federated graph (e.g. sources not yet ingested) are skipped at merge time and reported, not dropped silently.",
-  "edges": [
-    {
-      "source": "monshaat::funding_routes",
-      "target": "misa::investor_license",
-      "type": "REQUIRES",
-      "note": "Foreign founders must register with MISA before accessing SME support."
-    },
-    {
-      "source": "misa::investor_license",
-      "target": "monshaat::incubators_accelerators",
-      "type": "ENABLES",
-      "note": "Once incorporated via MISA, founders can access Monshaat programmes."
-    },
-    {
-      "source": "misa::service_manual",
-      "target": "monshaat::kafalah_program",
-      "type": "SUPPORTS",
-      "note": "MISA registration is the precondition for bank financing routes like Kafalah."
-    },
-    {
-      "source": "monshaat::funding_routes",
-      "target": "svc::partner_funds",
-      "type": "REFERENCES",
-      "note": "Dangling on purpose until the SVC source is ingested; demonstrates skip-and-report."
-    }
-  ]
+  "_comment": "Curated cross-source edges for the LIVE (scraped) graph. Endpoints must be fully-namespaced node ids that exist in the real federated graph (e.g. misa::en). Empty for now: the original curated edges were authored against the synthetic fixture node ids (misa::investor_license, monshaat::funding_routes, ...) and were moved to tests/fixtures/kb/cross_entity/ with those fixtures. Re-author them here against real scraped node ids as the live data stabilises (and once geo-gated sources like monshaat are scraped via a Saudi proxy). Edges whose endpoints are absent are skipped and reported at build time, not dropped silently.",
+  "edges": []
 }

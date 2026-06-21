@@ -19,7 +19,7 @@ from dream_arabia.smoke import run_persona_flow
 from dream_arabia.api import create_app, InMemorySessionStore
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-KB = REPO_ROOT / "knowledge_base"
+KB = REPO_ROOT / "tests" / "fixtures" / "kb"
 
 
 @pytest.fixture(scope="module")

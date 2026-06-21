@@ -9,7 +9,7 @@ from dream_arabia.vectorstore import MemoryVectorStore
 from dream_arabia.graph import build_federated, QueryEngine
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-KB = REPO_ROOT / "knowledge_base"
+KB = REPO_ROOT / "tests" / "fixtures" / "kb"
 
 
 @pytest.fixture(scope="module")

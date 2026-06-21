@@ -13,7 +13,8 @@ from dream_arabia.graph import (
 )
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-KB = REPO_ROOT / "knowledge_base"
+# Build from the synthetic fixtures, not the real scraped knowledge_base/.
+KB = REPO_ROOT / "tests" / "fixtures" / "kb"
 
 
 def test_discover_source_dirs_excludes_cross_entity():

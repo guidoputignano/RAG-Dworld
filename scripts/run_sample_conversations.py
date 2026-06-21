@@ -24,8 +24,15 @@ from dream_arabia.graph.builder import build_federated  # noqa: E402
 from dream_arabia.smoke import run_persona_flow  # noqa: E402
 
 
+# The DoD regression replays against the controlled fixtures (deterministic),
+# not the live scraped knowledge_base/ — the live corpus is what the running
+# API/agent serves. This keeps the launch gate reproducible while real data
+# grows (and while geo-gated sources like monshaat await a Saudi-proxy scrape).
+FIXTURE_KB = REPO_ROOT / "tests" / "fixtures" / "kb"
+
+
 def build_agent() -> Agent:
-    graph, _ = build_federated()
+    graph, _ = build_federated(kb_dir=FIXTURE_KB)
     return Agent(QueryEngine(graph))  # embedder/LLM from env (fake/mock defaults)
 
 

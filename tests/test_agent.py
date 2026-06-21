@@ -11,7 +11,7 @@ from dream_arabia.guardrails import GuardrailEngine
 from dream_arabia.agent import Agent, Session, HISTORY_TURN_CAP
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-KB = REPO_ROOT / "knowledge_base"
+KB = REPO_ROOT / "tests" / "fixtures" / "kb"
 
 
 @pytest.fixture(scope="module")

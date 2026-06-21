@@ -15,6 +15,10 @@ from dream_arabia.scrape import (
     find_internal_links,
     slug_from_url,
 )
+from config import SOURCES
+
+# Pick whichever source is currently saudi_ip (flags are measured, not fixed).
+SAUDI_IP_NS = next(ns for ns, s in SOURCES.items() if s.requires_saudi_ip)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SAMPLE_HTML = (REPO_ROOT / "tests" / "fixtures" / "misa_sample.html").read_text(encoding="utf-8")
@@ -68,11 +72,11 @@ def test_live_disabled_by_default():
 
 def test_saudi_ip_source_requires_proxy_when_live():
     cfg = ScrapeConfig(live=True, proxy=None, egress_region=None)
-    # misa requires Saudi IP -> refused without egress
+    # a saudi_ip source is refused without egress
     with pytest.raises(ScrapeProxyRequired):
-        ensure_allowed("misa", cfg)
+        ensure_allowed(SAUDI_IP_NS, cfg)
     # with a proxy it is allowed
-    ensure_allowed("misa", ScrapeConfig(live=True, proxy="http://sa-proxy:8080"))
+    ensure_allowed(SAUDI_IP_NS, ScrapeConfig(live=True, proxy="http://sa-proxy:8080"))
 
 
 def test_open_source_allowed_when_live_without_proxy():

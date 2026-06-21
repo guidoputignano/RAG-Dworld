@@ -7,7 +7,8 @@ from config import SOURCES
 from dream_arabia import markdown_io
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-KB = REPO_ROOT / "knowledge_base"
+# Synthetic fixtures live here (separated from the real scraped knowledge_base/).
+KB = REPO_ROOT / "tests" / "fixtures" / "kb"
 FIXTURE_SOURCES = {"misa", "monshaat"}
 
 
