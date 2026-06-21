@@ -48,6 +48,22 @@ def _snippet(content: str, limit: int = 240) -> str:
     return ""
 
 
+def _context_excerpt(content: str, limit: int = 2200) -> str:
+    """A generous excerpt of a node's body for the LLM (vs the short UI snippet).
+
+    The full document text is stored on the node; feed the model a real chunk of
+    it so answers can quote specific steps/figures/requirements, not just name
+    the source. Strips a leading frontmatter fence and collapses blank runs.
+    """
+    body = re.sub(r"^\s*---.*?---\s*", "", content, flags=re.S)
+    # scraped pages carry nav/boilerplate; drop images and link-only (menu) lines
+    # so the budget is spent on real prose, not logos and menus.
+    body = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body)                     # images
+    body = re.sub(r"^\s*[-*]?\s*\[[^\]]+\]\([^)]*\)\s*$", "", body, flags=re.M)  # nav links
+    body = re.sub(r"\n{3,}", "\n\n", body).strip()
+    return body[:limit] + ("…" if len(body) > limit else "")
+
+
 def _citation_for(node: GNode) -> Citation:
     src = SOURCES.get(node.namespace)
     name = node.publisher or (src.name if src else node.namespace)
@@ -156,12 +172,18 @@ class Agent:
         return ordered[:MAX_CONTEXT_NODES], retrieved_ids
 
     @staticmethod
-    def _format_context(citations: list[Citation]) -> str:
+    def _format_context(nodes: list[GNode]) -> str:
         blocks = []
-        for c in citations:
-            yr = f", {c.year}" if c.has_year else ""
-            blocks.append(f"### {c.label} — {c.name}{yr} ({c.url})\n{c.snippet}")
-        return "Retrieved context (answer only from this):\n\n" + "\n\n".join(blocks)
+        for n in nodes:
+            src = SOURCES.get(n.namespace)
+            name = n.publisher or (src.name if src else n.namespace)
+            yr = f", {n.year}" if n.year not in (None, "") else ""
+            url = n.source_url or (src.url if src else "")
+            blocks.append(f"### {n.label} — {name}{yr} ({url})\n{_context_excerpt(n.content)}")
+        return (
+            "Retrieved context — answer ONLY from this, and cite specific figures, "
+            "steps, and requirements where they appear:\n\n" + "\n\n".join(blocks)
+        )
 
     # --- main entry -------------------------------------------------------
 
@@ -175,8 +197,8 @@ class Agent:
         extra_handoffs = list(PERSONAS[persona].handoff_urls)
 
         system = self.guardrails.system_prompt(PERSONAS[persona].name, persona, h_url)
-        if citations:
-            system = f"{system}\n\n{self._format_context(citations)}"
+        if nodes:
+            system = f"{system}\n\n{self._format_context(nodes)}"
 
         llm_ctx = LLMContext(
             persona=persona,
