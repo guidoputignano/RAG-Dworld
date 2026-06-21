@@ -11,6 +11,7 @@ Usage:  python scripts/run_sample_conversations.py
 from __future__ import annotations
 
 import sys
+import tempfile
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -32,7 +33,10 @@ FIXTURE_KB = REPO_ROOT / "tests" / "fixtures" / "kb"
 
 
 def build_agent() -> Agent:
-    graph, _ = build_federated(kb_dir=FIXTURE_KB)
+    # Build into a throwaway dir so the regression never clobbers the live
+    # graphs/federated_graph.json (which is built from the real knowledge_base).
+    with tempfile.TemporaryDirectory() as tmp:
+        graph, _ = build_federated(kb_dir=FIXTURE_KB, out_dir=tmp)
     return Agent(QueryEngine(graph))  # embedder/LLM from env (fake/mock defaults)
 
 
