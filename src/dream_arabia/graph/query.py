@@ -13,6 +13,7 @@ Loads the federated graph once and exposes the three operations the agent needs
 from __future__ import annotations
 
 from collections import deque
+from dataclasses import dataclass
 from pathlib import Path
 
 import networkx as nx
@@ -21,6 +22,26 @@ import numpy as np
 from ..embeddings.base import Embedder, get_embedder
 from ..vectorstore.base import VectorStore, get_vector_store
 from .model import GNode, Graph, split_node_id
+
+
+@dataclass
+class ChunkHit:
+    """A retrieved passage (chunk) together with its parent graph node."""
+
+    node: GNode
+    text: str
+    score: float
+
+
+def _chunk(text: str, size: int = 1000, overlap: int = 150, max_chunks: int = 80) -> list[str]:
+    """Split a document into overlapping character windows (bounded per doc)."""
+    text = text.strip()
+    if not text:
+        return []
+    if len(text) <= size:
+        return [text]
+    step = max(size - overlap, 1)
+    return [text[i:i + size] for i in range(0, len(text), step)][:max_chunks]
 
 
 class QueryEngine:
@@ -56,13 +77,20 @@ class QueryEngine:
         return f"{n.label}\n{n.content}".strip()
 
     def _build_index(self) -> None:
+        """Index document *chunks* (not whole nodes) so retrieval surfaces the
+        specific passage relevant to a query, not just the right document."""
         if not self.graph.nodes:
             return
-        ids = [n.id for n in self.graph.nodes]
-        texts = [self._node_text(n) for n in self.graph.nodes]
-        vectors = self.embedder.embed(texts)
-        metadatas = [{"namespace": n.namespace, "id": n.id} for n in self.graph.nodes]
-        self.store.add(ids, vectors, metadatas)
+        ids: list[str] = []
+        texts: list[str] = []
+        metadatas: list[dict] = []
+        for n in self.graph.nodes:
+            for i, ch in enumerate(_chunk(self._node_text(n))):
+                ids.append(f"{n.id}#{i}")
+                texts.append(ch)
+                metadatas.append({"namespace": n.namespace, "node_id": n.id, "text": ch})
+        if ids:
+            self.store.add(ids, self.embedder.embed(texts), metadatas)
 
     @classmethod
     def from_file(cls, path: str | Path, **kwargs) -> "QueryEngine":
@@ -76,18 +104,37 @@ class QueryEngine:
     def get_nodes_by_namespace(self, namespace: str) -> list[GNode]:
         return [n for n in self.graph.nodes if n.namespace == namespace]
 
+    def search_chunks(
+        self, query: str, k: int = 5, namespaces: list[str] | None = None
+    ) -> list[ChunkHit]:
+        """Top-k passages (chunks) by similarity, with their parent nodes."""
+        qv = self.embedder.embed([query])[0]
+        hits = self.store.search(qv, k=k, namespaces=namespaces)
+        out: list[ChunkHit] = []
+        for h in hits:
+            n = self.nodes.get(h.metadata.get("node_id"))
+            if n is not None:
+                out.append(ChunkHit(node=n, text=h.metadata.get("text", ""), score=h.score))
+        return out
+
     def semantic_search(
         self, query: str, k: int = 5, namespaces: list[str] | None = None
     ) -> list[tuple[GNode, float]]:
-        """Top-k nodes by embedding similarity, optionally restricted to namespaces."""
+        """Top-k *nodes* (deduped from chunk hits), optionally namespace-filtered."""
         qv = self.embedder.embed([query])[0]
-        hits = self.store.search(qv, k=k, namespaces=namespaces)
-        out = []
+        hits = self.store.search(qv, k=max(k * 6, k), namespaces=namespaces)
+        best: dict[str, float] = {}
+        order: list[str] = []
         for h in hits:
-            n = self.nodes.get(h.id)
-            if n is not None:
-                out.append((n, h.score))
-        return out
+            nid = h.metadata.get("node_id")
+            if nid is None or nid not in self.nodes:
+                continue
+            if nid not in best:
+                best[nid] = h.score
+                order.append(nid)
+            elif h.score > best[nid]:
+                best[nid] = h.score
+        return [(self.nodes[nid], best[nid]) for nid in order[:k]]
 
     def neighbors(self, node_id: str, undirected: bool = True) -> list[str]:
         if node_id not in self._g:

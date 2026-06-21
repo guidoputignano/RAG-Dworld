@@ -48,19 +48,21 @@ def _snippet(content: str, limit: int = 240) -> str:
     return ""
 
 
-def _context_excerpt(content: str, limit: int = 2200) -> str:
-    """A generous excerpt of a node's body for the LLM (vs the short UI snippet).
+def _clean(text: str) -> str:
+    """Strip a frontmatter fence + scraped-page boilerplate (images, nav links)."""
+    text = re.sub(r"^\s*---.*?---\s*", "", text, flags=re.S)
+    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)                          # images
+    text = re.sub(r"^\s*[-*]?\s*\[[^\]]+\]\([^)]*\)\s*$", "", text, flags=re.M)  # nav links
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
 
-    The full document text is stored on the node; feed the model a real chunk of
-    it so answers can quote specific steps/figures/requirements, not just name
-    the source. Strips a leading frontmatter fence and collapses blank runs.
+
+def _context_excerpt(content: str, limit: int = 2200) -> str:
+    """A generous, de-boilerplated excerpt of a node's body for the LLM.
+
+    Used for nodes reached by traversal (no specific matched passage); directly
+    retrieved nodes contribute their matched chunk instead.
     """
-    body = re.sub(r"^\s*---.*?---\s*", "", content, flags=re.S)
-    # scraped pages carry nav/boilerplate; drop images and link-only (menu) lines
-    # so the budget is spent on real prose, not logos and menus.
-    body = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body)                     # images
-    body = re.sub(r"^\s*[-*]?\s*\[[^\]]+\]\([^)]*\)\s*$", "", body, flags=re.M)  # nav links
-    body = re.sub(r"\n{3,}", "\n\n", body).strip()
+    body = _clean(content)
     return body[:limit] + ("…" if len(body) > limit else "")
 
 
@@ -156,57 +158,67 @@ class Agent:
 
     # --- retrieval --------------------------------------------------------
 
-    def _retrieve(self, session: Session, question: str) -> tuple[list[GNode], list[str]]:
-        namespaces = entry_namespaces(session.persona)
-        hits = self.qe.semantic_search(question, k=self.top_k, namespaces=namespaces)
-        retrieved = [n for n, _ in hits]
-        retrieved_ids = [n.id for n in retrieved]
+    def _retrieve(self, session: Session, question: str) -> tuple[list[tuple[GNode, str]], list[str]]:
+        """Retrieve relevant *passages* (chunks) plus cross-source neighbours.
 
-        ordered: list[GNode] = list(retrieved)
+        Returns (node, passage_text) pairs: the matched chunk for directly
+        retrieved nodes, a de-boilerplated excerpt for traversed neighbours.
+        """
+        namespaces = entry_namespaces(session.persona)
+        hits = self.qe.search_chunks(question, k=self.top_k, namespaces=namespaces)
+        passages: list[tuple[GNode, str]] = [(h.node, _clean(h.text)) for h in hits]
+        retrieved_ids = list(dict.fromkeys(h.node.id for h in hits))
         seen = set(retrieved_ids)
 
         # follow cross-source edges out of what we just retrieved (1 hop)
         for n in self.qe.traverse(retrieved_ids, max_hops=1):
             if n.id not in seen:
                 seen.add(n.id)
-                ordered.append(n)
+                passages.append((n, _context_excerpt(n.content)))
         # continue from prior active nodes (2 hops) for follow-up coherence
         if session.active_node_ids:
             for n in self.qe.traverse(session.active_node_ids, max_hops=2):
                 if n.id not in seen:
                     seen.add(n.id)
-                    ordered.append(n)
+                    passages.append((n, _context_excerpt(n.content)))
 
-        return ordered[:MAX_CONTEXT_NODES], retrieved_ids
+        return passages[:MAX_CONTEXT_NODES], retrieved_ids
 
     @staticmethod
-    def _format_context(nodes: list[GNode]) -> str:
+    def _format_context(passages: list[tuple[GNode, str]]) -> str:
         blocks = []
-        for n in nodes:
+        for n, text in passages:
             src = SOURCES.get(n.namespace)
             name = n.publisher or (src.name if src else n.namespace)
             yr = f", {n.year}" if n.year not in (None, "") else ""
             url = n.source_url or (src.url if src else "")
-            blocks.append(f"### {n.label} — {name}{yr} ({url})\n{_context_excerpt(n.content)}")
+            blocks.append(f"### {n.label} — {name}{yr} ({url})\n{text}")
         return (
-            "Retrieved context — answer ONLY from this, and cite specific figures, "
-            "steps, and requirements where they appear:\n\n" + "\n\n".join(blocks)
+            "Retrieved context — answer ONLY from this, and quote the specific "
+            "figures, steps, and requirements that appear below:\n\n" + "\n\n".join(blocks)
         )
 
     # --- main entry -------------------------------------------------------
 
     def answer(self, session: Session, question: str) -> AgentResponse:
         persona = session.persona
-        nodes, retrieved_ids = self._retrieve(session, question)
-        citations = [_citation_for(n) for n in nodes]
+        passages, retrieved_ids = self._retrieve(session, question)
+        # unique parent nodes, in retrieval order, become the citations
+        cited_nodes: list[GNode] = []
+        seen_c: set[str] = set()
+        for node, _ in passages:
+            if node.id not in seen_c:
+                seen_c.add(node.id)
+                cited_nodes.append(node)
+        citations = [_citation_for(n) for n in cited_nodes]
 
         h_url = handoff_url(persona)
         action = PERSONA_ACTION.get(persona, "continue")
         extra_handoffs = list(PERSONAS[persona].handoff_urls)
 
         system = self.guardrails.system_prompt(PERSONAS[persona].name, persona, h_url)
-        if nodes:
-            system = f"{system}\n\n{self._format_context(nodes)}"
+        if passages:
+            system = f"{system}\n\n{self._format_context(passages)}"
 
         llm_ctx = LLMContext(
             persona=persona,
@@ -223,7 +235,7 @@ class Agent:
         )
 
         # update active nodes for next turn's traversal
-        session.active_node_ids = list(dict.fromkeys(retrieved_ids + [n.id for n in nodes]))
+        session.active_node_ids = list(dict.fromkeys(retrieved_ids + [n.id for n in cited_nodes]))
         session.add_turn(question, text)
 
         return AgentResponse(
