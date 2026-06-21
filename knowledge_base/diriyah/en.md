@@ -1,0 +1,425 @@
+---
+source: diriyah
+title: Diriyah Saudi Arabia | Culture, Events &amp; Tourist Attractions
+url: https://www.diriyah.sa/en
+personas:
+- P3
+scraped: true
+tier: T2
+access: open
+---
+
+# Diriyah Saudi Arabia | Culture, Events &amp; Tourist Attractions
+
+Diriyah Saudi Arabia | Culture, Events & Tourist Attractions
+
+[About](/en/about)Places to Visit[Things to Do](/en/things-to-do)[Plan your Visit](/en/plan-your-visit)[Blog & Articles](/en/news)
+
+English
+
+[![Diriyah Logo](https://assets-diriyah.diriyah.me/29ba2e33876e45eaadbbec801eec39cf?width=3840&quality=80&transform=true&format=webp)](/en)
+
+[About](/en/about)Places to Visit[Things to Do](/en/things-to-do)[Plan your Visit](/en/plan-your-visit)[Blog & Articles](/en/news)
+
+العربية
+
+Announcement
+
+1/6 - Road Closure
+
+Learn moreDismiss
+
+Announcement
+
+6/6 - Only purchase your Diriyah access pass for Bujairi Terrace and At-Turaif from our official websites.
+
+Learn moreDismiss
+
+Announcement
+
+5/6 - Road Diversion
+
+Learn moreDismiss
+
+Announcement
+
+4/6 - Road Closure
+
+Learn moreDismiss
+
+Announcement
+
+3/6 - Bujairi Terrace Free Access Pass & Valet Service
+
+Learn moreDismiss
+
+Announcement
+
+2/6 - Road Closure
+
+Learn moreDismiss
+
+# Catch Every Match
+
+Watch, cheer, and enjoy every moment together
+
+[Explore World Cup in Diriyah](/en/dine?type=world+cup+venues)
+
+## What's on
+
+### Diriyah Activations
+
+[View all](/en/whats-on)
+
+[Public Events
+
++1
+
+### Salwa Palace Projection Show
+
+7:30pm - 10:30pm Daily
+
+Salwa Lights The First Chapter](/en/whats-on/3d-show)
+
+## Featured Experiences
+
+### Delve into Diriyah's rich experiences
+
+[View all](https://www.diriyah.sa/en/history-and-culture)
+
+[![experience](https://assets-diriyah.diriyah.me/f8aae0c59e0b479b88d5e8ac4dbaa0b2?width=3840&quality=80&transform=true&format=webp)
+
+History & Culture
+
+### At-Turaif Self-Led Tour
+
+Every day| At-Turaif
+
+Experience the charm of the At-Turaif walking tour through its historic streets. Marvel at the...](/en/experiences/at-turaif-tour)
+
+[![experience](https://assets-diriyah.diriyah.me/8d8b1776a5e04f5a80b46d4d22a38057?width=3840&quality=80&transform=true&format=webp)
+
+History & Culture
+
++1
+
+### At-Turaif Guided Tour
+
+Every day| At-Turaif
+
+Full experience accompanied by our experienced guide at At-Turaif UNESCO World Heritage Site, you...](/en/experiences/at-turaif-guided-tour)
+
+[![experience](https://assets-diriyah.diriyah.me/3f3ca9a0eba141cdb975651cd1baa5d2?width=3840&quality=80&transform=true&format=webp)
+
+History & Culture
+
+### At-Turaif Visitor Centre
+
+Every day| At-Turaif
+
+At the Visitor Center, learn more about the history behind the migration of Banu Hanifah that...](/en/experiences/at-turaif-visitor-centre)
+
+[![experience](https://assets-diriyah.diriyah.me/46bde65ecfb34a12b9eab27a65e36ba0?width=3840&quality=80&transform=true&format=webp)
+
+History & Culture
+
+### Arabian Horse Gallery
+
+Every day| At-Turaif
+
+This gallery explores the centrality of the Arabian horse to Saudi culture, identity, and history,...](/en/experiences/the-arabian-horse-gallery)
+
+[![experience](https://assets-diriyah.diriyah.me/3e1c6b7cc5474e16b3ff667338eb24e3?width=3840&quality=80&transform=true&format=webp)
+
+History & Culture
+
+### Diriyah Gallery
+
+Every day| At-Turaif
+
+Journey through more than 1400 years to discover the stories of the many people of Diriyah, from...](/en/experiences/diriyah-gallery)
+
+[![experience](https://assets-diriyah.diriyah.me/205cd061d566405bac0c406ae7fe6349?width=3840&quality=80&transform=true&format=webp)
+
+History & Culture
+
+### Traditional Architecture Gallery
+
+Every day| At-Turaif
+
+This gallery explores the techniques and inherent wisdom of traditional Nadji architecture, which...](/en/experiences/traditional-architecture-gallery)
+
+[![experience](https://assets-diriyah.diriyah.me/1f2d259e3acd43308d2565f39e0cfb55?width=3840&quality=80&transform=true&format=webp)
+
+History & Culture
+
+### Military Gallery
+
+Every day| At-Turaif
+
+This gallery charts the long Saudi history, the rise of the Emirate of Diriyah, and the bitter war...](/en/experiences/military-gallery)
+
+[![experience](https://assets-diriyah.diriyah.me/dd5d1b95012d4e2db255074b278675b7?width=3840&quality=80&transform=true&format=webp)
+
+History & Culture
+
+### Sbalat Modhi
+
+Every day| At-Turaif
+
+Sbalat Modhi was the first endowment in the First Saudi State. Imam Abdulaziz dedicated it to honor...](/en/experiences/modhi-endowment)
+
+![](https://assets-diriyah.diriyah.me/0cce01490247468b9fc96f930810f1e9?width=3840&quality=80&transform=true&format=webp)
+
+![](https://assets-diriyah.diriyah.me/455c3dc333504d44bfe63f8258282e15?width=3840&quality=80&transform=true&format=webp)
+
+Here is the door that connects you to the past and the future, where our story began and continues to unfold.
+
+[Learn More](/en/hotels/bab-samhan)
+
+![salwa palace al turaif](https://assets-diriyah.diriyah.me/07e7d6e1eaec4a279102afb36551479a?width=3840&quality=80&transform=true&format=webp)
+
+Discover Diriyah, a place of beginnings, old and new.
+
+[Book now](/en/plan-your-visit)
+
+## Places to Visit
+
+### Explore other top destinations
+
+[![](https://assets-diriyah.diriyah.me/81641ba7f7a04ad5898d402d114fff03?width=3840&quality=80&transform=true&format=webp)
+
+At-Turaif](/en/at-turaif)
+
+[![](https://assets-diriyah.diriyah.me/a96cd2f51a9d40c9bb1f2090ef4b4a94?width=3840&quality=80&transform=true&format=webp)
+
+Bujairi Terrace](/en/bujairi-overview)
+
+[![](https://assets-diriyah.diriyah.me/c39ffb7ab18e440ba076c03243ccdaa1?width=3840&quality=80&transform=true&format=webp)
+
+Wadi Hanifah](/en/wadi-hanifah)
+
+[![](https://assets-diriyah.diriyah.me/5a82b0703fac4b4b88589c094c5eee43?width=3840&quality=80&transform=true&format=webp)
+
+Zallal](/en/zallal)
+
+## Dining and Restaurants
+
+### Elevate every meal with an exquisite curated cuisine for every occasion
+
+[View all](/en/dine)
+
+![Explore historic At-Turaif with tailored student tours for immersive learning.](https://assets-diriyah.diriyah.me/a49e06e53a5946eca35727c91bc458c8?width=3840&quality=80&transform=true&format=webp)
+
+Explore historic At-Turaif with tailored student tours for immersive learning.
+
+[Learn More](https://www.dgda.gov.sa/en/learn-at-diriyah)
+
+##### Diriyah Moments
+
+### Where every visitor finds a story
+
+[Follow us](https://www.instagram.com/visitdiriyah/)
+
+[![شجّع منتخبنا من أرض #الدرعية 🇸🇦
+ فعاليات كثيرة تتحرّاك وتزيد حماسك 😍🤎
+
+Cheer on our national team from #Diriyah 🇸🇦
+Activities that bring even more excitement 😍🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2Fb77fdd65-4bef-4569-a08e-1328c3798c6e.jpg%3Ftoken%3DSPRC_V0_qPD1dNISQl%252BZtQk5RF1BHKh%252FvT6R19LloT0oCjz5iqTf4iRvx2w0rp3Cx5klQ7HrGcZwucV2ubOijnVbJQvuyeQT78he8pYYDrkZpCyfEHZowIsoDSV0jstYeJNq85o39ve2tQF2CdEjAgl3iWrg6D2107hV4sAdkP3ktrRY4C%252BU9p0Byx79yYBh%252FTaMlWtzuYV8YUemx6hRroI%252B%252FoURK06%252FFBtD8CU4KIi%252BPjmJi2zhmeoR3kyR%252B%252FpQNs5PmLezKEvDAbCXk5cUZ6HDSPOtEIeDq1oEbHq2lqivTzkTKPOmMZr5b93oEXFrNJaxPOQICedFapt4iL1FUpHivX0j8i2%252F65JNsHnDNLGWTfbTVtiQnsBvXvJ6n%252FSqFS8Ap7ubvDRB2WDVGmHjkqU1m%252BjrVL66Pp5z8HC98iFjKHEzEKKMnTp64qqtCs5C%252B5lZJvIE4Rrg50js8TMj2qnRK5eSfCAEC%252Blei5rXL0YCFFbviFTHm3fNCMRtVcEYnRzfbIJDLYMS1zJLUzitGwP%252F8z80FJsL%252BYwOfHoJZsIAwJNJ7MEV9tqtAG%252BCUJj7aKkrS2Knd2CbcXQd5VeNMXW3Mx16VG1jFSOqYwAAQ2yIlnYdrt%252FSl2F8Qnp8pDG0lEUgKBiyZ1azTx6E1vsbLWdSp2oRFnQAjweUbX9OjLlMa0BNwr0idgdo3eGf4GvL5Cb3kt2KHQPt7h289hmsoO0o4TDdvDj9P%252FFiMONfY6pTecdStf7CVlv3U5xG0vxoAK9zaPN2kOBkBpDpvZycHJhFpQJCKOpBXJQTixlXwmaS4DhxwgeFl2daPIyQHz4vA31JYoYdVCmQCNPFiDEkL59ZZ9WE8po2W1e2%252FGUG10ny%252BEcsWTE7EptXHFRMlUpHi95yy%252FjjgFMa4MxBMlvVHLqKANFouM0jNmlhurzYyiA0SZQZiaTdKt7J7WA8k%252BsBw94srBv%252BdOFcQEJKNw%252BnYb4gbz8%252FNiKIF2eGAuY5tkafISv3DBbPKexbp1xSP3MaXdMdv6hsWdha8%252FLwO%252FDeN%252FXedwXLxgdy95FFcXepRT3%252FjPN2lPc1hQaYf5kbBmoWtBV6ChdWiulmzMGxJTX8pJ6tgK6AyQ%253D%253D&w=3840&q=75)](https://www.instagram.com/p/DZ0aFXigHdJ/)
+
+[![‏مواجهة المنتخب يفصلنا عنها يوم واحد 🇸🇦
+‏تابعها من ⁧‫#الدرعية‬⁩ 🌴🤎
+One day to go 🇸🇦
+Watch the national team from #Diriyah 🌴🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F7d7acbe1-c74b-4979-81a4-7ca7ac2b744c.jpg%3Ftoken%3DSPRC_V0_WmwIHr5Vj%252BhnOtbM3f%252BvOJLkYwousIkpSrOXPmhtmNCYnlzLU8BPZVrLgJk4pMQC1WSNQyuMqAItJebeYS1Dit8eGuszSvUv%252Fcg1bkmgJQyGObmxawMYUqHcw%252FqJphNEesAttG7A9U6rxaQcPPj3AFvU2KRGoAMxnLwlfx9s2HagRGnLtwkpgUCFm83aJOeOBhzLfJTtNNi9u5peBOJDRjQ3jN77%252BH%252BjGNFZM7R3cB4V3NWVjaG0bKE9ayNnNqjrHzhIpBJAkvogLIKNpOi9oJXyURV8UXNPRfiAojjKdmQQz4uqNyXLPhkzicWytQKuhTfPTSB1GpV59mQP%252FouFGW5PFDO2uDaPkEXpdQHS99awbyujTKIRfP7u9c3Y%252FwVc2R7b3KocLUPo8JnDvjG20fSR%252Bg%252FL1jg7oZxRpkQwg%252FeTEHCG14P4XtONS5%252FA3oJKG753V48zqLDCHeGOGC%252BJ6p38c3ZKXhy8Mjbb2tFVtIUMaWm1oXnDkkCWUtpPdCaK46DqE7mLrAycgoGRDGoJaP%252FPM5RLlAInmVyApN8f3%252BgtKpVFV6PgIeVEu1bxkjQs0VD2d2DZuHcjg4HcfC%252F2vLXI9e9VeVrMPGSIN5Bz34gQcDxm%252FXZOyhwcAG%252BDCFvXLC3kLqJrmo7T52lioodsj3CLj1KtdiiJYIxGKmQYKfgNr7iG1DZiVkMF%252FM4gbC4JZQrslHZ0USDT7LJ4JslYnRLNI1xF42%252BKUA1MdTgB605Io0YzXO%252BQ%252B4CNv7aG8XYHiDTxYKUxvG1xJ4ytR3%252B1IdJ8fqHdIiXqN2KPtCgtNTNht7vG%252BSGpaJIhn7IeKjHrrA%252FXchsdNs75rKo1GTgCPBSUsfCsNNEV4hWo4J8899lY7ExhjQdyc5CrvmupENkBb3VP1HeJGUE5GjX9fgchb0mj7ZhJa9SLhMqENnzUvEsiNXjzEon5LDRa6hajnuf9iit0hGJsoRe%252FIQadaji3cojW1eontoJaE7t1rONnlNcu%252Fg%252F1nWr5a9Vg3mIbIPXQi5TKO5QkP1PI6%252FAGJUTD4PlK54OyCb9RRkhcpVoKzdOCMuPQeUbJv7v7stQKh%252B1ZOq8DA9HDt9GhsUq4DBKU1%252Fm6BZ7A9KaS422vsGZ4ut4%253D&w=3840&q=75)](https://www.instagram.com/p/DZ0MG3QDGhW/)
+
+[![مواجهة المنتخب يفصلنا عنها يوم واحد 🇸🇦
+تابعها من #الدرعية 🌴🤎
+
+One day to go 🇸🇦
+Watch the national team from #Diriyah 🌴🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2Fcca50669-4df0-4395-9954-343f6204a1a1.jpg%3Ftoken%3DSPRC_V0_vN8ZLtySSYk9C4Bjs3aZFVM%252BUdqNr7i9zjbiiP6rI9aJlqZffxkd5duiMBd0uaD6F%252BBfesS3Nj6WBW%252BBiNvABZFcYx97hWa%252FgU5DIEkn5oRPH3rHvFJFahhsK9%252BOtP5R6Vu1AUV8MGLu69UiYm%252BvkTTRlonSiVL05AMnD8E1velXzn1a8YdXMoPPt%252FumshEfj%252FM%252B%252BGwLbfpUQ2sF6xWC105MXtizgFTAMtF3M8O4tL%252FysRboAov5FlpgiGFIHq7%252FeOLlagJj6mRreEDNnSR%252Fy3EZwdlGfGYiWOM8MxmGBqY6fPM8jbS88S%252By3o8N%252FTRLbtAhcem%252FD7n6361ZQgmWCeYh021NN1jhn95QQc%252B1nffZ%252FSxXEdfhMYlrY4StlDiSiIQ1OEYqtfk0pNBicg7v%252Bj4trcKOBpJN9dxysew1v3UwP%252FVLS8MtwcK%252FgZCru1sXbk2vnEWtX9sceoAny7GXpcLy%252FUMf%252FH6j9TVRn5Ek64mzc%252F4c4TbV2kw1B%252Fdv8kUdXIPyaEc1QDAZC3ZTBIkOGPzbU9J80D2tnL8QiY0y3b0CBrhSCpdHqAF3WXsBBxsqTv6ZBxjxXyCmAxpeeMOMwRGszQdrdzP6WTMqwkfQKTXGJgbqvREF%252BarBOSvUkDY3mTRkDMRg5kp4RhJDWrEg2o%252F%252BrgN1O1v1U58sFvakPmJg9Gjn%252BmODZAOTunyJDT%252BUgv8woDqXnsRof8G6jPQVOvgaU06OGRwMGarQ4orgCs1YFHm%252F0AYUGLs2PYQjmhATWrODG8UI2MWCgoMUVCtla9F0iErhWrCJKSL6Dq%252BJecMnNEtDxfphlefWSQ5v5Ya2alSmYl9YlA417gtnkAh6ZB49zZed4X%252B453if9%252Feu1F%252FR1l3ZMDxMbaMMiNMnpWpR6j25YCwIntpvYF94Tb8w18wqZsq3TJ61SrlBPpCfk7k7uT08GWlpGhqyo83Z8TiYA7sbNOcXVYiGTmXSqaFM8n0gLxp6l22xExk7dzpq3pw30XB39eE840tfPGDcOADek1tHJKvaShGTsUr9Yj%252BVpi%252FmKU06wchLtewbOuRgW6XhRjSDyaSArS%252Fsadq8kjhvTg543iEQf01SBO7OfVD36NoWWIAzMb8Z%252BfbsUUymNdw%253D&w=3840&q=75)](https://www.instagram.com/p/DZ0HoHmjHtn/)
+
+[![الويكند مثل ما تحب 😍
+مطاعم وأجواء #كأس_العالم! ✨
+
+#الوعد_في_الدرعية خلنا نشوفك 🤎
+
+Your weekend plans? 😍
+#FIFAWorldCup atmosphere and restaurants you’ll love ✨
+
+#MeetMeInDiriyah 🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2Ffbc3d2aa-e638-4700-9503-d61855247885.jpg%3Ftoken%3DSPRC_V0_DwR%252Bl6vIV9HJe%252BxHhK%252FoaZUYLeXYkLzSRceN0aJtacb7JzOt9ghTFYoLSSpRovp2vHqi4Fa3zKhWsdzCnpcn7GfszlESZLtjpoJGRGlm1SZeqqtamt5WgKUVMx5juivaL%252Bmuar3qxWOgxPGm5lMHQGOyViCqYGhRZ0zK6lU8A9JkUwGqDDU2ktLc57yMtkFh6wPZFVPxRIiZBiYASQi1431mFgLpkpHCv3UI8t6BS8w2W7hXNwEwdyoV%252Fxm%252Frj0c%252FB1WdJr6dQb4Ry%252Fz7CqacC8MTYeaA0QNytlRTuE7ZpCsiNcsp47QG4TV%252F5jgR6oSoPzgvgO35FT7bEh4N04Devqv05L%252FM7s7%252BG4E9Oauos5rHVhUS1eZ2mW1c6IyPllH1MCI7FbrUB4ebOwa4D6n5KuXnSduMDcHHIqzjr7FjCvBL4QjJdAfhozFQ68z8NTToLEyk8cdOH1XgMDxy0WWrvHqRj14WYbn6r5WfDODlk2vQ2DUmsvXWPf4CKFf19RIZOa6coxmzllJn3udQfTovNEUq7dOv%252FjIZcqqIf3qL073beqXEmNfK7Q6gQll4s9tEz9yD8f1TqT5PIRO%252FCgohq63o0A0FlZa2%252BU5s%252FedkCy%252B%252Fktmt1%252F4P%252FumfFnUyyYaQ%252Bkwv44cbYKUXKSawX4fdtk5I1UM%252FwjQpjSqGCWzoqe%252BwBOT76rm794ncnQZ7xHejIAx04LpsyrjyfTsswumkAHXumzXBSA641cYoJ7eFujOSnhbHT5LLI2mfQjmUOYad6ZHHyZbSnu4qSGy%252FtrMOWhwUlhZyclH2qj%252BaB6lAU%252BGTY%252FLJu1SiKmVo%252BjCqzkFjcob%252BEXE0RGq0augi5Jk3W4ZqWCtmyBZQDeb0Z0M7P4vMQh2mq1i6pU9vQ51p0%252FB34TwuEXGt4V5mEhUknmEMUT6RdsDz8oSRSgQhQWYmefJi%252FW3LvYQb4D4fI8aKyLYamauiOq7Gqep44Ph5AENN9oNt%252BDtxIgQc77kf1e89R5H4ckdPmZ9bPym1FU%252FMSVvOhwzpgnkoWk2jugt3aq%252BuWox9S7irMWUhIcl7WCZq90onliAq6Ps2Ptv1qDuJGvB%252F0DR6YUk7JTGkECcOaTPcXL8ocHq8gTaJS1znZX9QOd7C5rXyxbY1rP1tBB8fBc35Xwtk592qvEifPMkJ8QgTiB3QptI0l0Ll%252FMxYbwzIIkq0X%252FaiUB0jmqxdJu3cXPhN%252BBPWvgB3%252FwujpwgKPPnHQ%253D%253D&w=1920&q=75)](https://www.instagram.com/reel/DZxxF2CgytQ/)
+
+[![‏شاشاتنا للتشجيع جاهزة! 😍 
+
+‏خلّك أول من يدعم منتخبنا من ⁧‫#الدرعية‬⁩ 🇸🇦⚽️🤎
+
+Matchday starts here! 😍 
+ 
+Cheer on our national team from #Diriyah 🇸🇦⚽️🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F11cbda87-e8ac-4d09-98ed-e63d879f2148.jpg%3Ftoken%3DSPRC_V0_cLyhiv%252FQOvsYQp6vSN6X4ihm1D1KUU3eeVf2Ak0EjZKbrjkumpFCCnbbho7tLWp88uetiL5Tn0RGFH3O0WPhxB2lmNY9faSQF7BteGyoOq7w1D5drDDoN1RmVPA8x%252BDoqERuXJoXDsvdshaJn%252FXKgEZSb%252FDNj4L5k39dWlaVaqGmJiQf%252B43UAQzJBcdNV%252F2%252FfNaeMPF4FyQOiuImQgDwZ73FdC6MwD%252B4zvYxGkLyChnN7%252FtYdaiWFSC1HDdF9h0QgG3%252F2DUvZcTpuiBKVH%252F2tuAitdvwqct%252FR0FipgS%252BkIKMGGdhdJoVk%252FoWUaNoFQmfQdI2B0BK8MLN4h15q1kbMixrrLXV%252BNTujVZYPePcYi7W2jrzlJjQaOru5LAEY%252FFpk9PRzTBwdzRwJrQI%252F2Q%252FXG9s5Xze6rzMcg3bK753%252BCQ8jKLkNtK5JXyeBM%252BjC8QEyNShkLltMm87%252Bvjh4Ltq4AZDiVjTRYgJRfIbIXurVyDczJ32NRoEKfnzpSQ%252F6682IYncG26T1ZZwgN5UTGPfpDq6jTnSXpJZKFk8C05Deacrigt7f5Thr1FE5cVA07oGRJA0gzbMq8ULFUAB%252FfEtSh%252FuosaegT6nGj%252FaMriXE7ZnnFYRSXSRaOxkhiwAkHyIxYNnEfhtLcrBTfjR4Sad5rl1OUJ%252BEWNydeyf4MJhnhBnXmBbPaMOHT1GxgJGZ7ycxqm0di%252BysIuKmnnfjYIqGEccB%252FUBYcGmijVKZnx%252B%252F8lqVUwvwQ%252F0LbcprqBM5dYDmVMWYDYkO%252BYOZhxKRi73ULnMO7%252Fsq26mCQ9jgnEW52Hwv1Pwn4rErqKRn8TF6USbPeJ6rhgCBTxnpYysGjJpNyUnvfR%252B8X8MpfcBsetID8eFlzIkVS%252FRd97zDFej%252B67mt%252FSJEHwW3bhA7C9QOZxBjrf56aN%252BOIEIuAAP19CRIB%252FQr2TslnbP661o0No7DkSfl9YOrg0Ly92VkLDtTa0JyGVLzZ8x0gWhCD4AvAeyKEhCmY91XFdLV8tv5CTnct9Lepi3R%252B7jirrPvmLUeX1t9EDvlfre7kO2GfEvo76pjiZu6CtHUdEi1O%252FlNZXEOBr6Ayyla74nNvWE6R9SJnIgxdOlhZ8VhHh%252ButMjKAnaVg0%253D&w=3840&q=75)](https://www.instagram.com/p/DZxgsSGjJeE/)
+
+[![لا تروح بعيد.. ترى ⁧‫#الوعد_في_الدرعية‬⁩! 🔥⚽️ 
+
+‏نتحرّاكم 🤎🤎
+
+‏When it’s matchday, there’s only one place to be 🔥⚽️
+‏⁦‪#MeetMeInDiriyah 🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F0a6c162d-0537-4da4-a071-6dae1c6c9ebf.jpg%3Ftoken%3DSPRC_V0_SD5IY83eWpUPdzFu8UDyRxRa5GQVCCdbB3QnKtb%252B8%252FSAyuzTgQRa44PvJHKsfGz5c%252FFPqRiFCM8VTBmxpl6Hb4S%252BufjOybfD9Fq%252BNpH0GDz16bsiVrNl1HvvrqokPfTH9wVIV1zNNIvenuus6jv7fZXHzHiVMBeC8XVCJtPHHQsIfhtkB1via7Z%252F8V%252F8DapLPa%252Bt8eydvLUTFgNSVIzN9%252F7ZmIFC6ae8Fv5CP0xmhBlOqhYD399ju6CrXfFWxVNpou%252F0xZhFemcxfu1q4vYqHbuBnoUSCutgD6PZb6rJ8V1waTwL6CBCVrGIqcVn9aXJpUAdPiQB6FsGnKpdj6I%252Bh6HN4YRE7aRdczRUQmidu9l8aYmt1jBK5sR4NyA5XkKSJCBX1e0yixzanLx%252BD44YPC4pVxt13C2fmbUaESKqzttGRfxRNexm%252BDWawnaKWjaikmflhu0qASu9SOAj3V2%252F7T0gg9CSZVlHnbpD7dBqiHopZlref340%252FtNkGMeeOs1WQtleuNbEHUqCnho%252FlUOB2Ljg4SwAuNABr76Wd%252BsY%252FTNk9jZ%252BUCCh0b6dTVUjd7F2TrmVkNa%252F%252BVxUUwllUmGVegUOuNMF36HDYasvTD0rs9fYStgZzUCGbZUp0TdRv2XTulXgHuMiOakgEnDMChz0QMk77yiOmmh7FMnqItZqOtd9y9mDy67tAoT9oM401RXzcbBAT%252F52k0%252BNE9i2%252BKLNO2ZBduXG6CMg8%252B%252F9c%252FCgJCj%252FVdA9d6jKytbd1ymsx3rvibSAbi7mC54kh4sXZ0w7yOHpJ0SxEvSuB7x8KtjssYHRScNZZ3yIMX%252Bi3iutLMvuEqBT8nTji3wYoQkzfWbWMuGNczMLvaF%252F6%252BAvOsbQlwc%252FPhD0IewvgiaSqBbAkXZvMpEiL%252BQbFS8hAIfTCH8nixFY8THWKoCmy7mMKSuojyL2eKlslifmGcV%252BkEhtkXWxTs11Lqv2lx0YruVEXUFe%252BjAzV6t8%252BKmeP2uxQTkXwwA7hF%252F%252BKusKSCOeM1WRIW7x8EyFeqMSCc3DN9ah%252BK%252FHqgyRZslgITkUsEdDd47k3yVp2S%252F945447lIlg3ViaPEkoDBJQGDMq3l2BMRq46xtqhvBtnLXGu5SYQb7tC%252FaO0oNoGku2kGOf8%252BtjUaDrMPivUjFQdy34RCVq8VRuqeIN%252BorsWKJkCgeP%252FZHgt6XCaoKDdePTIzzFEiyIOd7ZrOKeumEZt5hO%252BpmBAL3u8jVuA%253D%253D&w=1920&q=75)](https://www.instagram.com/reel/DZvHa9WgWe-/)
+
+[![لأنك غالي علينا سهلنا عليك تجربتك 🤎
+تعرّف على جديد الأسعار لمواقف وجهات #الدرعية 🌴
+
+🔸استمتع بڤالية مجاني عند زيارتك لـ #مطل_البجيري إذا كانت فاتورتك 150ريال أو أكثر!
+
+More time enjoying #Diriyah 🤎
+Less time worrying about the details
+
+Discover the updated parking rates across our destinations 🌴
+
+🔸Valet on us at #BujairiTerrace with a minimum spend of SAR 150!](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F3d094c71-7b22-43a7-a313-223f5da99ef4.jpg%3Ftoken%3DSPRC_V0_%252BHy2FRcUB1NMxP%252Fc%252Bh52XCVcoP2SIVhn%252FbyBbjAK8JwXxEA%252Fe4e555Iiox%252F9cwA5YOz1XNnOn7dKSGlUfIVSJadmOdf9oDMoJu1jsdELUYk9p4viGtKMvD8Ts%252BRv2wFNqWh2HnndF1c8QDWNiAPxyfjSdf5j5dUztikGobbTiS5xuiMy1NdUhPU2uCjsCIkVG%252FDLjMvHVRtKrNyQgbyJXivHvxausXLZDdnUiyJMznGxpEQho2lUL59EdWffLFY%252BlQbk44sM69BlgmTEPoW1%252B1SPfAW5Lr6%252FJYrCK7GZg%252FQ8n6K3AdEz8REmVlkJ%252F7lu%252BSRRUOJu4FsYCgz6Y8E5TiZe8hNV3SamoPtG3%252BU%252F%252FgxXvsEQffrfz9Agk%252F6TuI3n5x1AfuKoxfvtWJ35p4MMk2TM6gdGRHPrxtf7xlwF4NrLMvrmbvDqZfzIUDOM%252BChUf6pMMuVRhsw3TRXY83Yk%252BBEE1vmgsSb7oqyUdqlPyFMXkbXlHbj%252BiN%252Ffrde9VAfjdWBSV%252FkyugBZSb4mtEqD0Kuykj9v4f5StFeEbIQXYAbeDnoc%252FWVUZW6iqvWcOwMGd2hWmyRb7xeTRP7KOEbmFt0B7zK6vTPD3Yo4sfjKf1PjVaaLY8RGQCipDVrqCDQVwBZZX55pJqGsiPSkJHv7B4ETs%252F7W4ab2ql0Mtftbn6zm4scjFoNCYDJhzMZ2AcWLK7O0R%252F9FKETsKoq6Jn6zacbfE7ZOSye%252BLBn4NV1sFrqvRHlrRY2BdX2R9guLskLL9MXmHaKtZgEov784scSXBcf%252F0eNFD1M%252F1kMehpF%252BFsLAIeS0eUAwODfWftYjLNen5jIeBwFCEr4weCwD70dZsoAkCw3csvHxaOq2ShVOP4kMNFQsf%252BscqJmXULtsE5ivMM1e6eXUOLDsz10MxR3CTbkQex43HVo17bHkQDJPAyatUYnDxdJRKFsyZbz1%252B%252BYYrP%252BHTMwJKmEHDrmGruC93hsRze78777AKJpljqWaJJO0eOgwFHZ5UhNciu8E3%252BNGi%252Fa4YDHk0PIDH74rqFwZM4Sm3RL0Xcq0gJXo9WxYifX3hmSqKOnOoueWJTiALP9f&w=3840&q=75)](https://www.instagram.com/p/DZp-W0-gVAQ/)
+
+[![كذا كانت أجواء #الدرعية في أولى مباريات منتخبنا في #كأس_العالم 🦅🇸🇦🤎
+
+#Diriyah came alive for our national team’s first #FIFAWorldCup match 🦅🇸🇦🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2Fffef349a-ad5f-4563-8b06-6cf5faf8be6b.jpg%3Ftoken%3DSPRC_V0_OQp4fxhOXtEnbKz4v%252FfzW7g%252BCqnOv8YokJpertMQU7ua8r544uGk30EVGqdGCovzt4BK%252FthhEIxl1j8yLD%252BLIRRackcsDa6%252FlIFqok6t%252BWL5u09IIqtKV0o%252FYJQ9z3rm2OuEvEHJnQYuvfjMnW5CKDc5whL793Q95WbeHgbWvgKZ1PhHM%252FzUcdHabp9taNYTHLvirw5MeHYbO2hVQqtvKqodyQJJl7G%252BsJCBPl1eTZjHpRg9e0A732Zq0nB4iYahLfzwcwCiteqEGiSSFHGVnT81%252FhXYNcP17NZ4msWKMCQWUZGUZ0mHdHOvklSZpIMRzsHI5R%252FTdQmiR8dMPkGbEoo%252BIL9iN7bHoXIHdhhh2iGKFc7%252Fh2hDU54KlJFJ81IHppcjLpAZKJ4%252BSg%252F78ezsMceXppFdkxa7NYHBNi8YPt7w2gSHJERF5DrB%252BtbeE6SXQlUnLjZWEZfe%252FKY00B25kKf6IC4lhG%252BAfiA3INDckPp3xdmm5i2JVmCXH0YSFf46yXujta%252FOCk2MMBk16UXXW3qZ51H%252FiNDriiGDJOTppNgG9Tu6tmy0ZYfJNoMwPBenov9dnEEbGI9s3B%252BgUyek2QwjRI6PN3Ih8x80iX2hohy3R2UzCGuj4hUZGI26YgV4bE8NHvCWGunFdBOFvBJjhKHjlXrSxC0DJ1qcLp2jX5ItJvCR2vOrEl4oxDtVE5qaVas422jrPnSGPKCaA8o9JcmymKBpSx%252BTzkCx7Fr3A0%252FoQ0xCltkmne%252F%252BVH5ehd6UQds%252FLnstD%252BGLs1KbkZ83UCcbd%252BkK1C3ot5EuMoup7a3sEtJgYAfO82S6GDQUEoQJNYSZqJBuZZ1J5mtklP7ggIA%252Fn9ksDx9sF%252FSsLwUTPnzwrs1jLLPsOJ9yXt20asU0kZVs8UUePXtSah1ejxMvC3TLf6A8BNXQMidk0OKYp3wEQn3tgeetkgJA26kdyiTSY7e0HLzy1hAryNeYwJoCu%252B%252B%252B5if%252FyTSZbSqQot%252FAVzPtqwmokxuD9fXZAFVzb7MHu%252BjwHF%252B1Y6NsEc7tOVEgZufQkArUGMWV%252BiBD0Xx7TU1ldSLkT65BBkPCTViwm8xF0y56U76ltZ5M31IZzGM3%252FziSuyB5GI6bX1wFNzkpGXbUiKETT6TTZzAmQvlwzXIVN296lFv4qRX9TePDbD23IFiB642bSZR%252B%252F5JHk89LbOX%252BvhqzaREk%252B54f6xEZ23zaAB7UL1Pp9VoQjXkOFz%252FBAQ%253D%253D&w=1920&q=75)](https://www.instagram.com/reel/DZo-dYtAxqT/)
+
+[![بكل زوايا #الدرعية
+تشجيع منتخبنا ما يوقف 🇸🇦🤎😍
+
+Wherever you are in #Diriyah 
+the cheers for the Green Falcons carry on 🇸🇦🤎😍](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F3d344f89-a0e3-4e3a-9282-d3290352474c.jpg%3Ftoken%3DSPRC_V0_2yHNTVSrE5Q%252FAXRito21vi6TrTYHyx4adcU8HcWV6ECfLT%252FKZky32pqBQe1Y5bFIl5kA7%252BPOhuHu7JEGrN3BSf%252Fz5S4lY3sMuIDJzzd093h9GLu93XWbWo0XQdr12juQYI6aDt7rIblL8zXtQX8XpSB%252BrPi4hMuebJsq51st7OEOLSvG%252BdkRXXD1NXeG%252FljvCQ7ORMYTIVrdpDnfK7x0JJPN%252Fs7UDesGhzBdqWjqSyNFnHXPIuLJAVaq%252FSfw6SXrh%252FWWHElAur%252F3QAajaBswnZId6UYJZRtan97Korp2CDUa3wUhcxcXyIUHIdzuhzXHemoZYFhu6TxF4wOX%252FEbF4hiCzCw3Voh0ds0FbjBmvffgRrw6SPus8VvPs0Clxecy1nrFKU4ouFMS04n9Ep4lBwGc5Oz0v8ZXzvhdeWEz0zsaDWW6cZ4PqeUM8mtzdxkGVBFAu78c9MPxZ8pcIH7kXjs%252Bwp92aFKvSAtDzSOUrczOnM%252FmTgzYa7DGCgYdgCB386h1hqeKdhTa2%252F6CHPL32S8vSsSeeLdANbj9YU3gKGcq7HAkItxFKwe908V%252BHaTozlqAdX0AsG%252BEENINreDFPUCaEoQ7Xjf%252BVcXVWKdba25VdZ5Dg6m1PAE4OMyZz4Zs6TeSwBCDzCcy2IX34bCBRGwMLBKtEMwChIxn%252FHyRGLPUcG3pav%252FgRrZ2X229KpgGOTPUgB%252BfL8jA7aZBJIJBKFCT0i0t1BezZVz4eCTxDXqI9ZVA8Gse8zs6qJHL1R4Ft%252F0YKw05ILVvVBotuiivV%252BTXm9CA966qixPkL1MORCtMToz3T7lgM9TtRJVeYCJA7XgSSedaTMYh4cAVZ6KsRzlH%252BcI5YyuwPnsN1uDESO%252FYPsTTlNYmIzGgRxus6w%252B9aCxztIgvRs0T6xQvjbuwOqovoxbDwaaVDhp0BLOfRpcz2tWEOyxrklU%252F9rMGz%252FjElnBl3dqfK8383HyStQpwGA1R%252FE4t4WuYmgsTFVBCdQrPTuKd%252FSML3ocbvMqGChB%252BtSbIsC7n%252BZMETBXTqvMgLJTeOvjZaLYH1L4YUGkESoSjIqk8fRJi7DBWACnbwHiNcdfL36xbBhmNzWADsuAc4XIapKk3MaNVyoRgt3gWl9k%253D&w=3840&q=75)](https://www.instagram.com/p/DZn64eiDJx0/)
+
+[![نسأل الجمهور ونسمع توقعاتهم 🎤⚽️
+كل التوفيق لمنتخبنا الليلة 🤍🇸🇦
+
+Predictions are in 🎤⚽️
+Good luck to our national team tonight 🤍🇸🇦](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F24c28bc9-222f-42db-8157-42ea96a23667.jpg%3Ftoken%3DSPRC_V0_T2%252BTo1p3TRsHxFDdae5hdgCQzhIqxZhbCWWiVOITQ3J8VylAjLu9kTrLjQVRkFUgI81bsxUIPLZvaszusFiHrN9zCtER7VISy4xyDNZzz8UZWP%252FZQR88q78Vqv0u4bXP9zrDGAxi8Gd6%252BbyALqz0X9V1rvUsvqa7MFKzciEVfYeqFVprPFZhMRMGLw5uuwiD3%252Fv9pIu3qvay2KoABIpprTxxWiIjMGQ9TQB9w4p%252FtTDwqkehoAPQg%252F3jhXvRBccciw8qffc8I6We7lOpCBnlBEOQ%252FFDwaTqjKKimWdMRxJa4HPDQO8Ogv3KJxx7y7FldkpShanl9pSkyUw6MT3JvM0sf9BT0aDxAB0ZPA0q9IwPOF2HYBPAXgVg8k9lozS82rmztE06tVAffVTaYPyFnAFN%252F9iwCZxb%252B%252BCsw6oGb3R2qRzGKqWZ5jmcarPeGqIuqHe%252FRTPXt0dpwOvEj9lDQcZ8hFrLUF8%252B8iSxgl%252FsyKEH3dDUEseZbG4j3xItXbsFAogGIhG4gSX%252F3lMldd5ELF6WSps%252BpbBDtZKYzCf6FOR79G8IXp0jYH6MPmFOZxi0ouphE%252FByGECc%252FmOjKL9DrsVGCldmUPsExS4M2SeaA4UtLUEGsiOuegczN0I7GBekbO2aho%252FbKc6%252B2SNjMNNRlr9rrqT5ojRIgfUgDKleHYaTu4VEzuSt19uyLa7sWLjvuoSV58CbF7gGEjgLgUImo8kYC%252BEEUJrl0WW5fEcK3NbZI5lzAaCbD3kPpNyLmqgsRCyw7%252B6fLsy3xhkp7Nb7J5PLFZ9OQ5HDZ%252F33gDQNeb1A7ITkotNQk6pgTSZJL0m4IUsbymh0VF%252Fj4EWwY0ovkLMXiNVzkSA0mGoGqORNsENp9frIrkIpPSxGrUCNFWPvGje%252BHEmKEZnZVhUiPdtVBVu538f9jMOnOg1LASKB4KN%252BYTtFz8QlX8tIKsvpbahBLHI7F%252FlzYydOnZc4SmFYkmWZTHAK9TniwVY%252BFwujsVHaboPIiq%252FcBoeuuMZRVYrUTqit3v0thPwcMI1U1sYkrB8Pp8SR4aE6uhZdCD%252FNEihaaO2erncEkQJ5oN8Oj%252FbZIJFH7HahvBHHl7cotfBr40lFWnoXY%252B%252FJ%252FcKepJ%252BxmgRUeX04Q%252FSEwlzf78gCiljDFtZtSGJAj4cvOj7Ds6AT18h%252FkALEpvZqva4AdF7%252Bi1QizV7DX%252FeYgoBkL%252BX3PlpwjTSO4S1gcpJt7%252B43JHr3fFg%253D%253D&w=1920&q=75)](https://www.instagram.com/reel/DZnvPcxAavy/)
+
+[![أجواء التشجيع بـ #الدرعية دايم مختلفة ⚽️🤎🌴
+
+فندق #باب_سمحان يستقبلكم بفعاليات تزيد متعة تشجيعك 😍🇸🇦
+
+Every match feels different in #Diriyah ⚽️🤎🌴
+
+And #BabSamhan Hotel is ready to make it even better 😍🇸🇦](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F884d0e0c-9feb-4e38-a1a8-33c490be2f34.jpg%3Ftoken%3DSPRC_V0_c82NN4rYRKfT510eEfjsO7GrKm2M1aPLTLHntptJ5TckTqPnh01mHxiI8Jb0vYpE6lb7T63WARXM6MuDGD%252FQpx%252B7JY%252BTUeYzlV5rwqiPHp5rJBopruJe2f7RQX4XNFntc1DYEPfF2GnAm%252BWDQDGde%252FzDQqsurEC7z5LELZ2Q%252BnNl5A%252F2CgUe2BB4oorNk16fxQjnYlY9RrGPFV%252F0sf2LJQLOq%252FHWMxv92rRyCPNQgrGr1i%252B6qWLwUwXBau5nar2aB0toOmjMLDNqO57BJmdCry2YkAkOwsQHUWpZCSnv8MNraY%252B1n9bRCSxsnUb6rpw7VWyLrhI1701zdxIi7DzJOIiw0ZVyloX6gUF9pNyqF7yb8iKl9pIwXvYTRHVMWfU%252FRr07PaljkU5K7VOBd4leatQlesOBx8m1LDkZLJe969qI3phh36kNAjIAlRs9oOEYnj4QKJcj4HSDYKlx2aGjW8FVds0FOcK1%252Ffztqjab9nEYBG7DVF2B0N6l75HzbfMBzrIwvL4dIWwu40GaaEm6xA6YnVzVdvalbGN%252F5sbKy7nNLMPov%252BV5k%252FaMflJEv%252F5f8dMww0gZ7RdHccIOgKw0MeBIhUpDyXdALQkmbStwVMnOiX0ZjymrBNqTZmXzjrQAqZCWiJ2sVsmgMDcEVazbGdTXQYxorLV8yahgcNlIdodrVd3B0ncKvcWJP65fn%252BBgND7liXrULVNtS0tsX20WzIg%252FlbyE7lRkxSz%252BFZxB2oNKi%252BbIoGR%252Fe%252BswuOe8NeUnx5HPjxcvEsfT7y4zwEaGjZ61XRDiC6mvUe9e7ASRrT8mLwDf7altlaoJMSQoquXZ6fZPuSnFF6VOZOMWJeWbebexxKipXYslOsWcOT5eDhuY%252F41bKmISLEveMkEnzFvDbyKlbFAZVZoBo36pNSLqeTI%252FroV0gvh8nEpHq5j%252F7%252FBnF1B27wbc0KueFDiDdxXYZjUl%252FjAx9PpP5g6GbF62nKyWPHZsvnRWCCYFV5YdE9GJ4bL7LuP5X%252BEQ6WlGp7MHIo40yja06ah8nYvh%252BnNRFAm52v1cjNUs3i9Tc2bMdWu5JTu4JBPTIRhzkivMbTgoskbnudSnhQ%252B9CtfqlXkjhum5Z3yYb59UL6T6QriS8WoMorzO8vlHK2VFocXFoswzRsabxP13JrqYaInOVlWmaHlfBiT%252FPq%252F%252FEgLHO%252FYl2v%252FD1ff87Hute%252FCa3JQzrD%252B77Sv9hEzjBXr6UmmIJZsaPg%253D%253D&w=1920&q=75)](https://www.instagram.com/reel/DZnrIfCgeeG/)
+
+[![جاهزين لدعم منتخبنا 😍🏆🇸🇦
+
+شاركنا لحظات التشجيع من ‫#الزلال‬ 🌴🤎
+
+‏The countdown is over 😍🏆🇸🇦
+
+‏Cheer on the Green Falcons with us at ‪#Zallal‬ 🌴🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F3a1aebd3-5295-468f-90a4-d2c81170cb5a.jpg%3Ftoken%3DSPRC_V0_Arju3F6PXSQm8I7OpVaRkyY%252BEz6k%252FWcB5r3jZvDBanRBwZMyZhNblMOjWzNrrCzEQxkmgcs0n6USEtyZ0bXS9PklsiFLd5UPj%252B60xXEbg25B%252FFlWtC8wvACKWiQqHh%252FrjkSV%252BjbaKJdMC%252Ff%252FM5nagkKsj3GejNu7Gawfp52Ju1Nh1AMN2NhTl1iM95%252Fgm0Rz5rhzNsDb9KsJLlhYrAoAbgX5AaZ2qhuaVyJ%252BuNQapo3Mf6umY%252FsfX7KyZoQfhfGk%252FV5P67K4HorsEdesdkUhlVDyyATjhM7EmG%252FR1H9xsHZhN%252BHTJXwdSXheWaIkia10xN99jfxs2DAEPkEJai0gv1yWVOW5Bfn4RsRLVryAPzpnOO%252BZTjXJxUQweObp31XXMFxw44hcLANmwLiUc0y8U4MwmLNXhfTvNnyxz9VjPF6JXRUbMBXnMfZ5B2wk%252BkDsSYFijYIHVL7pSG3eFmVHxts81MgnIXp7M1HshRyGfAx8N%252B6HrpcQB%252FYKuZfuGMTY5%252FHA1HxKuoRx0HmpJL%252F6uj41z9jhzp%252FoDvR4jExENU1TfS40icGCMbOlB8Na7BNFb0N%252FsrYvn%252FH5urb%252Fgj1GvrHxGa2duJWYiXXLQr1j5m8TQfN7%252FvL4ZW4Fk7R5yyncxTTBlZc29gIVz9wN8Tab4xKDzdG7UFGVJ70X93PwZqvkvr7Ex%252FU%252BGvQaFSdj9bjYNPUVVRf3rFru7AQOG93jAEBW3vpgjzxH0nXSNqS2mVVZWtz3PwHUaG6GG9w3%252Bb6qvTl0DhSPHICeB%252FX1cWPqnvO9npd6dfbvr3bfiuEblgTAAic5kKHh%252BcIaSc14HSFoVBs99JEKc%252FZFXS7GtJi49h0KyEX6GO9tq8C48HjHAT1ffkXNi8ETDgfnt%252Bdo0IrIxhqPpv4ufvedjo7qk1xw%252FYCy%252BLRSz8OczbO29gLOj3PAQ5zpxP91oXxB5jUR7QaZEZWxfgTKzO65omyYTapz7PAoNnUFGPYmwpykORcjZiQRlvNsbbpS90MulG8LtH5Rr%252F55h3N7LHjwG5vXiuIyYWOEbryovJaJRJq%252BEbyOkYO36LWjjVJxIUsb5%252F9WSfzoNo1Hqh6XNaTqxc%252BJRVDz3Trh9CHpaD0c6TFlI26xAeXIbJhzmZgXJpHQWmkuYwbYtH9LPIDkq8U%252FOEM%252BwZajk3hQgumpB6o%252FxFEhZ98XDrbxcVbmG2h2kR3kH0%252BA6BCMpXznwILEKynduj1AMCzpeA%253D%253D&w=1920&q=75)](https://www.instagram.com/reel/DZncoGUAfGO/)
+
+[![من موطن الأبطال.. شجّع صقورنا 🦅🇸🇦
+
+تابع مواجهة المنتخب من أرضنا واستمتع بأجواء وفعاليات #الدرعية 🤎
+
+The Green Falcons take the field 🦅🇸🇦
+
+Cheer them on and enjoy the matchday atmosphere of #Diriyah 🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F70f78294-44c0-4f18-8e78-69949bc41144.jpg%3Ftoken%3DSPRC_V0_Iff5N3%252B5X5K4wFdfw89BbkK03kcN4lAeMkhxCu3U1b4EK1zBUwprhJCsBEcbvwPzdqeqbfWBJVdu8005ZOYjUCnks6h0pSp8vSH%252F1lGBA3ZUYoE2C160t%252FQ44TAaK%252FDCrnd8iatYrdAA6%252FBophF%252BBe%252FWo5AxVElj7PSdiijIunDe47yWxGXrJ8QHVeTf5RRbDO5JIf0p3DwhefUH2v1kYHFgAuTozbcuq76RBVJr%252Fzs8eHE1oeDTUGnfMA0RuRq3bFylFCEKUb48aS5HlZaslY60tLUxjZEsxfm04EelPlKkjqzASkQ3H%252FPSOtoDq3GXAspqytPWcdMLhkymbod0xef1JvSkHqU8Z1Cy9QfDNyZkkctYj5s907%252FKDjKRx5PJezw5e76zk1wclarF2MTuzDWfxDy2sVFXOxjagqJC9KCaziBdRrG4Buj9mZDa%252Bpo6hu19BAXCfmXVnv2DwJl51lCrT1ooq31BbeA1mjuctFNKu6EQjTB3vo2EARk8hGfN2jUcmlYVK%252BPJt%252BpTacjYKjnFTXD0%252FNzDw0DjWadUib5yOMm5m%252FnucnV423ZakJSvdCF0K%252Besf5U4bcDN6XpVu0AZErAKQSkjlkGBMhyGEDFxDSZaHEoFFkpEGVxge3KPpRk7H9KMyRVKNObn9aXkJMgKqVpQIG9JryxiW5KTp1IsvCtBLL9VTH%252FOofd6sDawE%252B26lo8iY5vD2xeVMYQx2txzlvGeNj1cb0RxZypO0%252FodcXPwjSy16DdD8vQWDhraVjWc4lAaT0hb6CMkDBzyQ4UfLixPPDNyyHfH7ntr5RgvFBwct5CsAF3fZxG9YrvIDVd08wjpevAhh1tmdsAQ022%252B2VOUulGnMSO%252FIvn5xXUMmRie8QlmysLkTduaQR4G6xxnPY9SvrQVzqRZ4z0GSkq9PbVAlhYh4vP9edZCGGCP8hyeaL3cUIyvOjdqeVNR5vtWVDqG6e9G%252FoL3lW6e0Rlmlwf5vutZKvk24UN5IulMRRGkQCtyRfpf8Dmhz0T5FItIAErXdxK%252FfZUTPznto2vZjHDvVA6TyXnDw8WhLDJBgGQl%252BbqJWBm3mKmlClz8TG57vQlXlZzF1D0n2eEIimzQjyQrvUA2n4KP098jy5k%253D&w=3840&q=75)](https://www.instagram.com/p/DZnZyftAABt/)
+
+[![من أرض أبطاله 🤎
+شجّع منتخبنا من #الدرعية 🇸🇦🦅
+ 
+One nation. One team 🤎
+Cheer for our team from #Diriyah 🇸🇦🦅](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F94dfc7a4-dc27-424f-9787-369dbb177801.jpg%3Ftoken%3DSPRC_V0_qLuURNan2CZqPK%252BgFsz95xtw85zhatTOpQTQlR9U1mQkQaLPqTXbhf5itGpNyLlmslOuUfVIBj%252BxKPX1X7YRVX5QOzkmFZY32iArozLwnWpCPxHbifWbSzNxTn0ALoRFhMnP6h5gAe8QKXhEne%252Bb6YsmyimT16SCvF%252BSN7lecxGmnR5p2%252FAaGCCbNLR%252FYtD03F7olQlcjSUias0c6WA5Xb4T60od%252Bg3ekazGGmg89ivZQTxersWXqFVUBSivZ4h1WfOicY2F7%252BNRdLrw8%252BIeuTACVkVbArVz1dnSoWSUsn4DbhTb%252Bdfm4x1BGKIRdEKRRvWPSOa32nj8JX%252Bn2AJFAwrLql8%252BxscNRdwZA4MObBlKX4tO%252FIrTa07wm6r2eaCvItDfKjP%252BZNRCL%252F3v7hCAIl3AJO9A5BUtELuU0CKmqDjIZCDgxkiwv41AZpib%252B8esjHM%252FZShcMKOaDAiNpDes3RKtjUzM%252FlW6TH52BvSAf1T28jO1KMooFfDbT41M44gLdvxsEigAjejhEuqrhlA8%252FHmrInFelocXYmJ92Qv0BeYSUdd05rEc2YClKZdC2R3sOUcgDFnU6S4HIXoqVAmO9yyBOn0BttltS8q7j1nToBSDETFPOBWz%252BFsuehFReFDjwFXG7KvJCO%252F%252FYljMJqeIMhA5IxLEqZLNVD4nrsTwUXMnP0ZbSvLOBl00pIoQCbH%252FRfG2gSKTKybJOVPDQsHBRRHrJVQiOraSb3Ah8x5y6X4dmTHhbScwY2GdUhNydlLnA9z0%252Fygk0C9hlZWHln0udChYG1diKMAZtQY2zNjeezBivOe3Xc7%252BNOGHzpDUa8loLWqphw%252FbFp2%252Bz%252BqouIL%252BPVlzoKR8zDiOg8vlEPignrCQrgASR0Fns%252FxrEbhbNDamSMVGPqer0Mrxx7XS%252FgvmgRURgp0NJRpG45ylW5DdZVj1tgAG5LWBcIjCOJ0n6cTis6F0B7hPAAIaJyLFm8V9m5%252BkIRtz6nIxuW45RbwMEa6zIxJuwOA%252F95VS8bpK8xPqp120tXQX3209XhpOXSzkbUiwchezMHoFEF1pVTu5e44PiH0NpsyKrx2sL5X%252FMvaXDwogEWqnLQUlrbwVp6Uf%252FRz4DODTMyXn3dfvSl1U2jw%253D&w=3840&q=75)](https://www.instagram.com/p/DZnAL3hgOfY/)
+
+[![‏أجواء المونديال مختلفة بـ ⁧‫#الدرعية‬⁩ 🤎
+‏عِش الحماس معنا وشجّع الصقور الخضر 🇸🇦🦅⚽️
+
+Where every cheer feels louder 🇸🇦🦅⚽️
+Support the Green Falcons from #Diriyah 🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F07a95674-3408-4e86-ab54-ee3a66dda1e2.jpg%3Ftoken%3DSPRC_V0_A7L1dzFfJZ4rDoDy4RynujJ%252BHNvEVfGXYr3LdIfsKf3is0F30p%252BmT6niicwOnAsdLoTmPH1LSMYBGHXTuLwzdc43g6jJsmDx9kflxFxKgUvI82CZ2RvqZ%252FWy1NBVYtqmIMzEwc7IZNHyb1DTaHLN6kvkzdm%252FZq0%252B2LM0DBxjzuXpuTZHuITPFEOHEAjSNuchRMLYzm7q6M8kQC7ibWyZzgnjHNmgNGbsEehm%252BG5hBe6NGfmlaeA2v2HWY%252FmLmJoXnHxvqFHAppoiPB06nJMpyCz4PlA30fsTnOXJTQTo87lLWhTme09FJqqK7gVFsQux7WPDHrag9zTuTdWpgaXwT4A%252FKRXWTEzy2Rt%252BPtg5MyLndOVX7zOIBEKowsobBy5kYNB8PStZmpr6WzFUxoUJOQ%252FPwQej1FPxHsrUTrwIxkNjqzv%252Bbh1x%252BLUW2sQlFw5tK4veLApqikhth59MXQxvQ%252Ftcq4nNRBkxrD1Fhxv85vbUe0Irw3DPkRXiotA1IDYunXopIrvP0RvwVOGkjvzh5mM1XtKAKnrqv0vnsaif9A7lBHxa5Gx90%252FLTGU1iDI%252BFEGSBiRkhV%252FGjPSXMjiNzip1G%252Fy18tbkQ11s724lGIuymPeKpYDswatn6O8ZhMMYS7k37AS%252B1NbgyCfEu%252Bb6WlYU0vFsupNJGO5FHDI01Tjw11x7lTZ8%252Bn0fgYyZqBPr37jXbttga1TnDLe%252Flw%252FL3cPgZNVs2oeR4tWXxyvWJVbLPhZE%252FFpQudytNSA0lMBa0irKahZEVuDvM1Hmecivs0jLU40%252BODOqxYOsPS2uvTye6S9rU6bcoqIrBfCjs4HDxxqNkh4gpeoFBoTh2o%252B0g2IQsWi3iT0qbmpV4Yip%252Bn%252BINneNimrXK6UDmarS3m0B0CiwFI0OQMobDeRURTBc17OuLg1jFgYVI1S98eRQqQWKYPQXf%252BztBQXycbCL8mMlAkhqnb0Lr99WQFmxa8icAKr0knwcyQuaSMtg0mbwlzPCY4xk6ldNJCjuYhqEelIyDWWayim2QKruPVfkK0rG4%252FJvNwlKlbW9WpPRBeVIfu%252BeMwQvmPC7nff%252FXEIBDVBqggj8Fo781HIfwCzF6qe5xpRRZdbmsrYjRNgU%252BwdgD7HI%253D&w=3840&q=75)](https://www.instagram.com/p/DZk1-1GAImw/)
+
+[![الحماس على أصوله والتشجيع ما وقّف 😍
+أجواء ‫#كأس_العالم‬ في ‫#الدرعية‬ غير 🤎
+
+نحتري شوفتكم ومكملين معكم ✨
+
+‏The excitement is real, and we’re here for all of it 😍
+‏‪#FIFAWorldCup‬ in ‪#Diriyah‬ 🤎
+
+‏We’re waiting for you ✨](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2Fa3820fda-2c61-4965-aefe-e7dd8a3c5edc.jpg%3Ftoken%3DSPRC_V0_PWOGY1Vwb6L%252FNbEGJPgidV%252B58iWj3imZbfwjo6N6kLuA8oJkPMPB8AKX%252FXe2K%252B1DAtSYKzYJL46SC0o8BtdrsAROHk4rEj0M2sp2hn5QjW99SseSZN308HAEHJRzXrq4hSe101yCaQrt3PZgP7a2lGTgCf1sUP99L7szbM3ykbaNcA%252Fy%252B13sm2oRf%252FBG%252F7%252BUzB5JWWBK3pz3svn4dROoBt1K2jQXANj7oP35BUuHhdDZPBmL8QE%252FsoOVPvgNXn%252B90KlQBlgP1zlb2IpHpfoCJmzj2qjDufAvfbzKHdqEFRDrHwJfUz13wi1poewjBBCEjiYKUJBcB%252BdC6WPrsq42RHNSep1zlvvyX1Si9v5Oc9v4%252Ff2PrxEKy8O9bw4EBGqUnnIwjzu5gSBmo5rWB4CybQe%252Frjk5QyrUoS%252FoqHMC5D2rWaOLPgkl3zogFcB%252BBq1BayCLgTW5VS3IXWeX5GGD5XjAB6uYhTu3GlMUAF%252FHjbeZBpnqA%252FSHZfgo2%252Bw04j%252F6XapyWiVI7pimY7eFKIgyv0VVmaU58Xc3EvelEtEpPlaCKo9UicNt%252FEcEYSET%252BNUqVdI4Qua3rjL%252F9%252BAihoGUXYfy%252FWTbw5J%252BniWsbpIMEfHm5raSl7GRs1VDZF1Qp0Zl0KcJMTlNtAZkUz7f3jRl8IVLmUoN%252B2%252FnxwfC%252FgxghBIEBJe88XM6pIgG%252FTAkDUmwmjLAGNmKO6JgEksjv4JEdNnisIampOiMJZSHd7SVQP4Ge7Dd1PAMalWsyC70Rky9ELCihgMkVIwNvBELKL8zzglxd8XTa1yqH3Izj481O3kKRfh5aT1YzMr1OAqdFdOcvnwvk9RySVT7VyuU6QqXsOYA4Pt8BvltqWZp9EyK9rQgWRxp3qphS%252F%252FWTzQ0RqfrtaZSHkDiCWzaowuWFlGDfSy5O7hY3mpzfLXsr1JxfRIKAWKDGjviPNpJzyIld%252FAwzuJ69juw8F8DeJTTjSGyArMUX2ZBulQOjsstrdH8w66envrZIANw6KcABjjbDXW95HNWehzsP4IyCfAdiBDqNP9oD2KvlEw6KzeX3xK43SoiLItxDRsj%252BHG%252FmpyBReT30Y1rCSO5Nr9xm0LdTro4DuHucjUiQDuBCuTvL62ypWm%252BNHbWasAsfGW9bZydzCNsJmP92GgOwfXxR5km9QxDectwC9yFiyGykuppqo6HRDJn8wRc%252B5uwHc5A5yxXb%252FC8I25MB37phFKNPHQjDrxNRA%253D%253D&w=1920&q=75)](https://www.instagram.com/reel/DZktOpNADIL/)
+
+[![شجّع من وجهة تاريخنا #الدرعية ⚽️🏆🤎
+
+وعيش حماس المباريات من شاشات مطاعم #الزلال و #مطل_البجيري 😍
+
+Catch every cheer, every goal, every moment ⚽️🏆😍
+
+from the restaurants of #Zallal and #BujairiTerrace in Diriyah 🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2Ff6059a37-d8c6-436d-8283-0a7964bf4469.jpg%3Ftoken%3DSPRC_V0_AXkgWeeJBr58SHMsmQHnD3s5wKLAaOQ6%252BzQJdAyunYL%252B7dD16tuWt0FLz9eRie9AVGTTvayT7pVZw5qiN7NNmd2sB1NUpLaC67V6vfRW1jLtduzX8fMSnOIqP8IrRFZUbtOEvs%252BwGXJqI8N0ELF0ZdG8vfKLP7pY8NEDCOZ2PzOnbzWUXjvgKhKf7TRafPXZlYn6VulPebQVf9H4%252FeOnjB5jDUleWwuAquF9vMne%252Bqzaeizi%252BcWt47ArwUp6dDEVVdLNVhCsx%252FLsQqZdPN3KdsX7iXT7%252B07Ddk8DcpKhiX%252BmVPB%252FnhGAqlJ0qgzdPCV%252BDDewbNr%252Bh2HaZIPrN7meMSwDZVJRPlw53ygcfL2BaOc1Tp5S7qg96U9RjbJnbZnlNIiW7oermDJ7hF0ycY%252B9id6KctF9qywFahQ8Xf77rw9NYUqidyp8YSyYvO5LLJu6LgNBBm3C9xl%252F07butM2Ml%252Fkj9tmP9C%252FMu5JlDKvD3yTGHcpkWZzJxjibOOXOonALS1Usyp%252FI0VqQHJn%252FkUm0bYMsnOIp0loOgGKcW26Q%252BDn%252FuurSMhAccTSgNj9ELu%252BB1I6%252F3LKdzV9ZNQnro2MhT2GpO2K9oEho1MDJod8iTHh2Ck50J8glG2q%252BtG%252Bun%252Fi431oPbPoug6YiRSXdYrzvP3RXs3YEfF62NEZKcxwW9yrLALTqyexkuSvi8Am9iP7qEMDE3jNAa7GwtQdgV3qrClGk%252Bh7KzgmFCOJOtDg7CoAFxZx0jnPq%252F5FLAhR92d%252B7hgRz50qQcG1UyDcwlEYjVGeYELfxQ2Hw99513Mjwm1vU0YXQ37SiaY0HpKT7mCSz3YZWZRqJtCT9JVPaN0DIlSQ0CIPKyOfmpRroYSBDo5UE7UlFH84HKufkT6ltDfxrcp2Zq4IJW%252F%252Bu8rmIsg5k70woCkdTEmIIYc1Z5eRgZaKmoAiJEp4PK%252BQKGNhE8h00uwDvPEtoYdAxPIl%252FDhlZ76H9ZpAj2N3f8yJ8q5QJE2bEJEAH2oojfCtXL4TJ8rAL63PZ2rWmMiokLMLLxNXZkeE7FncvyRBob%252F6lEAtW8c1212W6g9cBKq1Nlodcfwjq9NRTD9WxrTKMvkjQ9jYD9A%253D%253D&w=3840&q=75)](https://www.instagram.com/p/DZf8UsKAF4C/)
+
+[![شجّع من وجهة تاريخنا #الدرعية ⚽️🏆🤎
+
+وعيش حماس المباريات من شاشات مطاعم #الزلال و #مطل_البجيري😍
+
+Catch every cheer, every goal, every moment ⚽️🏆😍
+
+from the restaurants of #Zallal and #BujairiTerrace in Diriyah 🤎](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F56a32e9e-0331-4c36-9f8e-c83aaaaac844.jpg%3Ftoken%3DSPRC_V0_IztBJ00trDawunG6UJg9vRHQNKojc0kYtU9cltsKjRvih%252Fwwu0Jdc9srah5ixXOimz5BSNh2fW1E91XqaAwIUabzUVtsiH2uLbaknkg%252BeqbndLevunjQYQQY02gHsfWCunLBBlRgR7a7IG8vEEZYwH7hERdgZUbwdelZEOH6rnLlpLdToJWZmrVQ7W%252BfxFWQa0aKhn6SFI9uAqVLpsU%252FR%252BW5cPXOWWZGj9nU72DplyvGDKTItWL9GA%252F1NkQqzngiXPy4mfaDrG4tRfOXFi8K%252FYYFxMjBUzrV0XP94Y3MihW9bnVmi9c3ptM%252FrtYCTE0hMa%252BYqCQset3OQPp%252FAWyYIH5KV0HKSKKHrpNe7uexJZ0kc4lr0b73mnaSU4vA%252FqnFJT8eejm%252Bowip3k5M3v3zp45xCVv8ZTlMzIQN08wVDMg5zuF%252BdEVHc0t17I1zuHfGGgNyq88bkyDTi2jL7gdRx6evJTNoXlxQKLuqcQDBNbLoTgsQD5%252BWNvYSEHoYYV3Vh%252FdMtgOLRLnJ0NrAAQNpCPDYycg6EqVvwP%252F4yz1JJX1zFbf1TZ6vPcrdlMPilXPnCOewUs9B12%252FWPUOkIDtFxNjL42zC%252FsjRMcGUW4%252Bw62CzdrpqnF%252FiltbA4zTLi5CXyETfmlOUUZ0Hc4yn4MTpyhzPdQDi%252BRICpBsbDCxOWW6HYq3eUCEkHhKg9nLz7ixpwFAHv5zj0AOnz7X%252FjgFHTvpcjSUAcs9g%252BEP4v3UwAj58JWEGRrHPCBej3MnXEMyKY7J3MzI7%252BEVYqxrY0u4YjN4X3ol8UnojZW5ucmwn66Vf6E4DtOPloGxvajRHCO37j0KoQsGADhzj5370sBdRy83bx2JKibJNHzWLUB1%252Bcf8f205I5T9LxPdIaB%252Fyd9FVfacZOmDfZlcsbD7%252BFJXoRbXjOoO1mjIRyO7%252B%252F%252FSItGJ0XKafsY%252BVHXi79IsTIT5ZmEhxTNV72pr1UleMIIYSpKQGt1RHgudcrO8ONLksWOALu3mcr7WgRUs63ZJZhhGZfbSw0nRX2m9LLpCehGpMBPkrogwwhze4EqvucPPb459it8C8Ts1Arrqg93C3yQ7BI0xf%252FVO4grw%252FwUYo8GY%252BnITXXBKDnOi2n6y7cK8GNxA%253D&w=3840&q=75)](https://www.instagram.com/p/DZfos60AILS/)
+
+[![وجهة وحدة.. بس التجارب ماتخلص
+#الوعد_في_الدرعية 🤎🌴
+
+🔸 الدخول مجاني وبدون تذاكر 🆓
+
+One destination. No shortage of experiences
+#MeetMeInDiriyah🤎🌴
+
+🔸 Free Entry and no tickets needed 🆓](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F2badde9c-0f74-49e9-a894-2d0767c8666a.jpg%3Ftoken%3DSPRC_V0_aMZCRbj0gV5B6uD1ijktC8lbdvohgfTMdCkYHe7N1Erv7U3mn5u60Nz%252F5nvfzRCp7Zttb4XQYsFMuKD6lGYUAPPaoOtHZlgErh8VYEUNLjIuiIh8HmE6Fuce1a5hplPwHu4AeK5Y4DbLjzuVCuqnJg3Yo8wO9CgItdzCkcG3tM2pAHh6S4NqK7STEDAeAkKawgeLWM84EVPd0hj4HGkFygDE7ncEULdtJbVKFpV9mH3EWrwJowAhtsEO6o6p0kwhmb2ThdQ4e43aGvTe9Jq8k6mQdIxtWb6tVezkjKRkpWRMQQcljELEA%252FB7NOP6zoX2mC8vFSEj%252FcR3Dq5HMm2m78Ae79Nlf4lCGx0dNfc0Gx0rM5lFgCmroFAFrw%252BWSFAtbQ4j9PpFPe9wbWXXBZ3zsY5KE2EUbvXUZOzngPxgX%252FvkOyg3NQv%252Fdt%252BovVTvS44aj5RlntfE1n0KoVO%252Fgr1S0Bw9AJ%252Fd4F%252BlDGPgnc48TDLt0DoTs4H7hS9F%252FFIQyXykDxqM9H%252Bbcf7edkOyjdEP700erkabm8Y6OMMdhId4yxRtj3qcYnfUR53NK06Nj8tnhLObBHGsEX2WkN4YzXxcY6yhJXGTCy41sN15SsyuCcUdyazMrmDzjkhZkb1%252FK5XeuiguSnZ6L93JZasNyFvLlta04V6HKGkzXNjo5uofIUmuwX%252F0sfigrXys%252F87QLk480HsdJu6a5c6hSOGfyUGLBZZ2R9PGR4h1QeUkNULIvmsYsFLdJKIYR%252F9lvIdNSTmcfHHoWEfikfyQiozEny%252FSlr84P%252BrOtruJilVNWGou%252BA2gMLuH50hOtX0KUJD%252FFVE0196t1eNKYycINvcXjuK914SIHaixv8FrWHKO%252BCoad4ngMlXwbSeYqHxQNpmm8ushPRfTD01rJxu9ZcI66hjqqNV7OZL%252Bm8KH3rIZcQ9cowqhjhc3mh%252BSTWvZs6GVjuR5BxC3ZPnSguRgVwzUkB5cBfU3L8WWzNu7e9MY4DurhmhbMIoQ3vUgqACFs8Rq5eC%252BJvTB3GnnC76mZ7S3qbBVprahuRf8ptfbP3ftPlUycC7ES5NJWLvL1RtRjUSkHR7bPUVgxycE%252B7Vp%252FLerbdTwWO0oByX0UpqNtuEG9bxVrSh6guidNP3KjBWrVxmRYCkn%252FdsvKWtuoBHmaIt9hzlfhWeU7g6rbv5cq84ZdsPuj4NmbMKaM8bjOgu7UVSx7HNNs41wzXjCp4ybn%252FGbOxULJw%253D%253D&w=1920&q=75)](https://www.instagram.com/reel/DZdOvQIA-M5/)
+
+[![الإقامة بـ @babsamhandiriyah 🤎
+لياليها تسعدك بتذكرتين لـ Six Flags أو أكواريبيا في #مدينة_القدية 🎢🎡✨
+
+احجز تجربتك الآن من خلال موقع باب سمحان!
+
+Your stay at @babsamhandiriyah comes with more adventure 🤎🎢🎡✨
+
+Enjoy two tickets to Six Flags or Aquarabia in #QiddiyaCity and make the most of your visit 
+
+Book now through Bab Samhan Website!](/_next/image?url=https%3A%2F%2Fprod3-media-proxy.sprinklr.com%2Fchannel%2Fdata%2Fmedia%2F160212%2F4d37e8c6-2cde-4aff-a501-077cec2b2c05.jpg%3Ftoken%3DSPRC_V0_gFafmKuSQNuaAQk%252FR5R90S0oGAuOWJdHKNd326cxxImfZf2cRJJkV2Uo7jN%252BHjmgYurMgy8DIi71Nmw8KBUK1ZuQFRoBScebATORIC0ENBTT77d6qj8fBeM7DIAI3Yz%252BmUWUvpzQ21r6uC5YWTYA9JnuUUOlfcJvyFGed6lN4Df7vx%252BzVsA2kuILOv7z3LbmtswV7npXiBCa70jkVSW7NYXSTqHLPGEHPhpsa9SChio%252BtRqQo6GqBz%252BvH41jojL6LPhHNbUuUTZKdZPMEj4k4nf9q5LGAcJuCL%252Bf8C0Xz4fNeVQAQmFUs8Ksfyx5LGt3mdaNA%252F6qOacxVrCJ2lVmxJUEpDgo%252FGXFo69A0qa8qLonBr99NtcCFG3SgsCypRhCwfXdwaiZWLdA%252FtE3krhFPHyPTgV37rjoQzvxlhIU%252Fo9YhvVVz7EbaU8Gw9i23Xo%252FX5gVElf0%252BWxfIPk9n%252FVf6oefmsaQK9htRK6k01IZfeonf0Pqx1TR15dSH5mT%252Fpr7aI6tUjIEp%252FLQ%252BpjXjC8evlxTifItRdqin3Wftzf0tBG25NYoMt%252FSD3tE9hh12mYkvkT%252BqiacfQZL81AQn4tnPrirmmW%252BbzI8nk9YiGggyU0lHDy1J%252BsSSgFj4QKtisy2uRCttjT50W9y2xG%252FgKF4hv0cZg%252Bt%252B4DULN56QWGdm7bGnrXU7mxDCUrN4YSq0F4yjo0zONroFQ5EDNHgmG0jXKDtzHADki95FelLgBkmg4TzznKm9sVZMFTbiHGrIEoGvU1Lwl%252B5F%252Fam%252FIbcRMQMb33q0GP7bTig3PEdBQtJahXhEdxjQbgFi%252BcXoYZNXsDqEbaBfp5hDXbmiWQzyiQOvVK4VcpWpweFIh0WXRP1WkR7nnFG%252F0OK3hirlfRXZRZpdR0I6N%252B836Ln8TNqUeydUMijprbQzGAPfWDr3PsO%252Bw4jtbHzMc7Vr8e8vGBBYbWxn7xfugb%252FPtIBWMTC8woMO8RoIV2s1CXxgpkR%252BOViVmnRmMnicnXJYa1iPw5ytOIasOgdfUghKhyPVfv60T%252Fvz%252FFY4brnN4qJxrMlGGPiXcVne2w0LoI3231l9%252Fzby4wbci48dKKnlNqEotUIN62PXN6ckr9nQVAU%252BIuLMioN18l4AicnFJt3Ri9WukBjnnNWU2tO%252F2Su2sKjdxbf4auSTxjFYn%252Fih69mVGpsV%252Bz8B0zMwgNmDH6Vq29647o8HwsUlU4S8dqBTw4%252FBelfOL1h9Q%253D%253D&w=1920&q=75)](https://www.instagram.com/reel/DZcvUkXMjfx/)
+
+### Frequently asked questions
+
+Operating hours
+
+---
+
+How do I plan my visit?
+
+[Explore questions](/en/faq?category=accessAndTicketing&question=p4nLjJN4aEWG8YEiu7ynkA)
+
+Parking
+
+---
+
+How much does it cost to self-park at Bujairi Parking?
+
+[Explore questions](/en/faq?category=parking&question=VzQKWfhnJk6KRjfWn-Y3Pw)
+
+Common Questions
+
+---
+
+Are there provisions for wheelchair users?
+
+[Explore questions](/en/faq?category=general&question=8LGJ71ayMEeSUPKd7onzFQ)
+
+[View the full FAQs](/en/faq)
+
+Discover Diriyah
+
+About Diriyah
+
+[About](/en/about)[Things To Do](/en/things-to-do)[Plan your Visit](/en/plan-your-visit)
+
+Useful Links
+
+[Blog & Articles](/en/news)[Contact Us](/en/contact-us)[FAQs](/en/faq)
+
+Subscribe to stay updated on the latest from Diriyah
+
+We treat your info responsibly. You can unsubscribe at any time.
+
+Please add your email
+
+Subscribe
+
+[Privacy Policy](/en/privacy-policy)[Terms and Conditions](/en/terms-and-conditions)[Cookies Policy](/en/cookie-policy)
+
+© 2026 Diriyah Company. All Rights Reserved.
