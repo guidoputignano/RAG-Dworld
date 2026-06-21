@@ -60,6 +60,25 @@ _NAMED_ACTION = re.compile(
 )
 
 
+def _norm_url(u: str) -> str:
+    """Normalise a URL for comparison (drop trailing punctuation / slash, lowercase)."""
+    return u.strip().rstrip(".,;:!?)]}'\"").rstrip("/").lower()
+
+
+def _allowed_urls(citations: list[Citation], handoff_urls: list[str]) -> set[str]:
+    allowed = {_norm_url(u) for u in handoff_urls if u}
+    allowed |= {_norm_url(c.url) for c in citations if c.url}
+    return allowed
+
+
+def _strip_ungrounded_urls(text: str, allowed: set[str]) -> str:
+    """Replace any URL not in ``allowed`` with a marker, so invented links never show."""
+    return _URL.sub(
+        lambda m: m.group(0) if _norm_url(m.group(0)) in allowed else "[link not in official sources]",
+        text,
+    )
+
+
 @dataclass
 class Violation:
     kind: str            # "missing_handoff" | "missing_citation_year" | "forbidden:<x>"
@@ -115,7 +134,12 @@ class GuardrailEngine:
             f"You are Dream Arabia, a persona-switchable assistant for Saudi government "
             f"programmes. The active persona is {persona} ({persona_name}).\n\n"
             "Core rules:\n"
-            "- Answer ONLY from the official sources provided in the context. Do not invent facts.\n"
+            "- Answer ONLY from the official sources in the context. Do not invent facts.\n"
+            "- Use ONLY figures, amounts, and percentages that literally appear in the context. "
+            "If the sources do not give a specific number or amount, say the official sources "
+            "provided do not specify it — never estimate it or supply it from general knowledge.\n"
+            "- The only URLs you may write are those that appear in the context or the handoff "
+            "URL below. Never invent, guess, or construct a link.\n"
             "- Every statistic must include the source name and year (e.g. 'MISA FDI Report, 2024').\n"
             "- Maintain strict neutrality on Saudi politics, the royal family, and competitor "
             "jurisdictions (UAE, Qatar, etc.).\n"
@@ -161,6 +185,15 @@ class GuardrailEngine:
                 Violation("forbidden:tax_rate_without_source", "HARD", "tax-rate % without a source URL")
             )
 
+        # 4. groundedness: every URL in the answer must be one we actually provided
+        #    (a cited source or a known handoff) — invented links are hallucinations.
+        allowed = _allowed_urls(citations, handoff_urls)
+        for m in _URL.finditer(answer):
+            if _norm_url(m.group(0)) not in allowed:
+                report.violations.append(
+                    Violation("ungrounded_url", "HARD", f"URL not in official sources: {m.group(0)}")
+                )
+
         return report
 
     def enforce(
@@ -172,12 +205,20 @@ class GuardrailEngine:
         action: str = "continue",
         extra_handoffs: list[str] | None = None,
     ) -> tuple[str, ValidationReport]:
-        """Auto-fix the structural handoff rule, then return remaining violations."""
+        """Neutralise invented URLs, auto-fix the handoff, then return violations."""
         handoff_urls = [handoff_url] + (extra_handoffs or [])
-        report = self.validate(answer, persona, citations, handoff_urls)
+        allowed = _allowed_urls(citations, handoff_urls)
 
-        fixed = answer
+        # record then strip any invented link, so a fabricated URL is never shown
+        invented = [m.group(0) for m in _URL.finditer(answer) if _norm_url(m.group(0)) not in allowed]
+        fixed = _strip_ungrounded_urls(answer, allowed)
+
+        report = self.validate(fixed, persona, citations, handoff_urls)
         if any(v.kind == "missing_handoff" for v in report.hard):
-            fixed = f"{answer.rstrip()}\n\nNext step: {action} at {handoff_url}."
+            fixed = f"{fixed.rstrip()}\n\nNext step: {action} at {handoff_url}."
             report = self.validate(fixed, persona, citations, handoff_urls)
+
+        # surface the hallucination even though it was removed from the text
+        for u in invented:
+            report.violations.append(Violation("ungrounded_url", "HARD", f"removed invented URL: {u}"))
         return fixed, report

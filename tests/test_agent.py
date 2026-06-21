@@ -60,6 +60,31 @@ def test_guardrail_enforce_appends_handoff():
     assert not any(v.kind == "missing_handoff" for v in rep.hard)
 
 
+def test_guardrail_flags_and_strips_invented_url():
+    g = GuardrailEngine()
+    cite = [Citation("misa", "MISA", "https://misa.gov.sa/en")]
+    ans = ("Register at https://misa.gov.sa/en, then contact the desk at "
+           "https://investsaudi.sa/contact-us.")
+    fixed, rep = g.enforce(
+        ans, "P1", cite, "https://misa.gov.sa/en",
+        action="register your investor interest",
+        extra_handoffs=["https://investsaudi.sa/en"],
+    )
+    assert any(v.kind == "ungrounded_url" for v in rep.hard)   # invented link flagged
+    assert "investsaudi.sa/contact-us" not in fixed            # ...and neutralised
+    assert "https://misa.gov.sa/en" in fixed                   # grounded URL preserved
+    assert not rep.ok_hard                                     # hallucinated link == HARD fail
+
+
+def test_guardrail_passes_when_all_urls_grounded():
+    g = GuardrailEngine()
+    cite = [Citation("misa", "MISA", "https://misa.gov.sa/en")]
+    ans = "Per MISA, register your company. Next step: register at https://misa.gov.sa/en."
+    _, rep = g.enforce(ans, "P1", cite, "https://misa.gov.sa/en",
+                       action="register your investor interest")
+    assert not any(v.kind == "ungrounded_url" for v in rep.violations)
+
+
 # --- agent end-to-end (MockLLM) ------------------------------------------
 
 def test_p1_fdi_answer_is_compliant(agent):
