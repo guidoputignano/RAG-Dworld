@@ -60,7 +60,7 @@ class LLM(Protocol):
 def get_llm(provider: str | None = None, model: str | None = None, env: dict | None = None) -> LLM:
     env = env if env is not None else os.environ
     provider = (provider or env.get("DREAM_LLM_PROVIDER") or "mock").lower()
-    model = model or env.get("DREAM_LLM_MODEL") or "anthropic/claude-3.7-sonnet"
+    model = model or env.get("DREAM_LLM_MODEL") or "qwen/qwen3.5-flash-02-23"
     if provider == "mock":
         from .mock import MockLLM
         return MockLLM(model=model)

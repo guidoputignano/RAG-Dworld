@@ -13,7 +13,7 @@ from .base import LLMContext, Message
 class OpenRouterLLM:
     name = "openrouter"
 
-    def __init__(self, model: str = "anthropic/claude-3.7-sonnet", env: dict | None = None):
+    def __init__(self, model: str = "qwen/qwen3.5-flash-02-23", env: dict | None = None):
         env = env if env is not None else os.environ
         self.model = model
         self.base_url = (env.get("OPENROUTER_BASE_URL") or "https://openrouter.ai/api/v1").rstrip("/")

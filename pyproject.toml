@@ -11,6 +11,7 @@ dependencies = [
     # config / data
     "openpyxl>=3.1",
     "pyyaml>=6.0",
+    "python-dotenv>=1.0",
     # pdf extraction (Phase 2)
     "pdfplumber>=0.11",
     # pdfminer.six -> cryptography needs a working cffi backend; some base
