@@ -64,6 +64,14 @@ def _context_excerpt(content: str, limit: int = 2200) -> str:
     return body[:limit] + ("…" if len(body) > limit else "")
 
 
+def _strip_thinking(text: str) -> str:
+    """Drop <think>...</think> reasoning that thinking models (e.g. Qwen) emit."""
+    text = re.sub(r"<think\b[^>]*>.*?</think>", "", text, flags=re.S | re.I)
+    if "</think>" in text.lower():  # unbalanced/truncated open tag — keep the tail
+        text = re.split(r"</think>", text, maxsplit=1, flags=re.I)[-1]
+    return text.strip()
+
+
 def _citation_for(node: GNode) -> Citation:
     src = SOURCES.get(node.namespace)
     name = node.publisher or (src.name if src else node.namespace)
@@ -208,7 +216,7 @@ class Agent:
             citations=citations,
         )
         messages = list(session.history) + [Message("user", question)]
-        raw = self.llm.complete(system, messages, context=llm_ctx)
+        raw = _strip_thinking(self.llm.complete(system, messages, context=llm_ctx))
 
         text, report = self.guardrails.enforce(
             raw, persona, citations, h_url, action=action, extra_handoffs=extra_handoffs
