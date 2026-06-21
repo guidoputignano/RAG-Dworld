@@ -1,0 +1,402 @@
+{
+  "generated": "2026-06-21T10:15:28.794891+00:00",
+  "proxy": null,
+  "egress_region": null,
+  "probes": [
+    {
+      "namespace": "misa",
+      "url": "https://misa.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "investsaudi",
+      "url": "https://investsaudi.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "mim",
+      "url": "https://www.mim.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "pif",
+      "url": "https://www.pif.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "ecza",
+      "url": "https://ecza.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "monshaat",
+      "url": "https://www.monshaat.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "error",
+      "http_status": null,
+      "detail": "ConnectError: [Errno 8] nodename nor servname provided, or not known",
+      "suggested_access": null
+    },
+    {
+      "namespace": "svc",
+      "url": "https://www.svc.com.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "sdaia",
+      "url": "https://www.sdaia.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "error",
+      "http_status": null,
+      "detail": "RemoteProtocolError: Server disconnected without sending a response.",
+      "suggested_access": null
+    },
+    {
+      "namespace": "pr",
+      "url": "https://pr.gov.sa",
+      "current_access": "saudi_ip",
+      "classification": "error",
+      "http_status": null,
+      "detail": "ConnectError: [Errno 8] nodename nor servname provided, or not known",
+      "suggested_access": null
+    },
+    {
+      "namespace": "hrsd",
+      "url": "https://hrsd.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "sta",
+      "url": "https://www.sta.gov.sa/en/home",
+      "current_access": "saudi_ip",
+      "classification": "error",
+      "http_status": 990,
+      "detail": "unexpected status 990",
+      "suggested_access": null
+    },
+    {
+      "namespace": "visitsaudi",
+      "url": "https://www.visitsaudi.com/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "mt",
+      "url": "https://mt.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "blocked",
+      "http_status": 403,
+      "detail": "origin returned 403",
+      "suggested_access": "saudi_ip"
+    },
+    {
+      "namespace": "vision2030",
+      "url": "https://www.vision2030.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "datasaudi",
+      "url": "https://datasaudi.sa/en",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "nusuk",
+      "url": "https://nusuk.sa",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "absher",
+      "url": "https://absher.sa",
+      "current_access": "saudi_ip",
+      "classification": "error",
+      "http_status": null,
+      "detail": "ConnectTimeout: timed out",
+      "suggested_access": null
+    },
+    {
+      "namespace": "mygov",
+      "url": "https://my.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "blocked",
+      "http_status": 403,
+      "detail": "origin returned 403",
+      "suggested_access": "saudi_ip"
+    },
+    {
+      "namespace": "moe",
+      "url": "https://moe.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "moh",
+      "url": "https://www.moh.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "zatca",
+      "url": "https://zatca.gov.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "neom",
+      "url": "https://www.neom.com/en-us",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "redseaglobal",
+      "url": "https://www.redseaglobal.com",
+      "current_access": "open",
+      "classification": "blocked",
+      "http_status": 403,
+      "detail": "origin returned 403",
+      "suggested_access": "saudi_ip"
+    },
+    {
+      "namespace": "diriyah",
+      "url": "https://www.diriyah.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "qiddiya",
+      "url": "https://qiddiya.com",
+      "current_access": "open",
+      "classification": "blocked",
+      "http_status": 403,
+      "detail": "origin returned 403",
+      "suggested_access": "saudi_ip"
+    },
+    {
+      "namespace": "experiencealula",
+      "url": "https://www.experiencealula.com",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "amaala",
+      "url": "https://www.amaala.com",
+      "current_access": "open",
+      "classification": "blocked",
+      "http_status": 403,
+      "detail": "origin returned 403",
+      "suggested_access": "saudi_ip"
+    },
+    {
+      "namespace": "kafd",
+      "url": "https://www.kafd.sa/en",
+      "current_access": "saudi_ip",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "kfupm",
+      "url": "https://www.kfupm.edu.sa/en",
+      "current_access": "open",
+      "classification": "error",
+      "http_status": 404,
+      "detail": "unexpected status 404",
+      "suggested_access": null
+    },
+    {
+      "namespace": "kaust",
+      "url": "https://www.kaust.edu.sa/en",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "ksu",
+      "url": "https://www.ksu.edu.sa/en",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "kau",
+      "url": "https://www.kau.edu.sa/en",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "pnu",
+      "url": "https://pnu.edu.sa/en",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "iau",
+      "url": "https://www.iau.edu.sa/en",
+      "current_access": "open",
+      "classification": "error",
+      "http_status": null,
+      "detail": "ConnectError: [Errno 8] nodename nor servname provided, or not known",
+      "suggested_access": null
+    },
+    {
+      "namespace": "seu",
+      "url": "https://seu.edu.sa/en",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "webook",
+      "url": "https://webook.com/en",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "arabnews",
+      "url": "https://www.arabnews.com/saudiarabia/business",
+      "current_access": "open",
+      "classification": "blocked",
+      "http_status": 403,
+      "detail": "origin returned 403",
+      "suggested_access": "saudi_ip"
+    },
+    {
+      "namespace": "saudigazette",
+      "url": "https://saudigazette.com.sa/section/BUSINESS",
+      "current_access": "open",
+      "classification": "error",
+      "http_status": 404,
+      "detail": "unexpected status 404",
+      "suggested_access": null
+    },
+    {
+      "namespace": "magnitt",
+      "url": "https://magnitt.com",
+      "current_access": "open",
+      "classification": "blocked",
+      "http_status": 403,
+      "detail": "origin returned 403",
+      "suggested_access": "saudi_ip"
+    },
+    {
+      "namespace": "zawya",
+      "url": "https://www.zawya.com/en/economy/saudi-arabia",
+      "current_access": "open",
+      "classification": "error",
+      "http_status": 404,
+      "detail": "unexpected status 404",
+      "suggested_access": null
+    },
+    {
+      "namespace": "saudia",
+      "url": "https://www.saudia.com",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    },
+    {
+      "namespace": "flynas",
+      "url": "https://www.flynas.com",
+      "current_access": "open",
+      "classification": "open",
+      "http_status": 200,
+      "detail": "200 OK from outside Saudi Arabia",
+      "suggested_access": "open"
+    }
+  ],
+  "applied": [
+    "misa",
+    "investsaudi",
+    "mim",
+    "pif",
+    "ecza",
+    "svc",
+    "hrsd",
+    "visitsaudi",
+    "vision2030",
+    "nusuk",
+    "moe",
+    "moh",
+    "zatca",
+    "diriyah",
+    "kafd"
+  ]
+}
