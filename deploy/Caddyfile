@@ -1,0 +1,18 @@
+# Minimal HTTPS reverse proxy for Dream Arabia (Caddy).
+# Caddy auto-provisions a Let's Encrypt certificate — no manual certs.
+#
+# Setup on the VM:
+#   1. Point a DNS A record (e.g. dream.example.com) at the VM's static IP.
+#   2. Replace dream.example.com below with your domain.
+#   3. Install Caddy:  https://caddyserver.com/docs/install
+#   4. sudo cp deploy/Caddyfile /etc/caddy/Caddyfile
+#      sudo systemctl reload caddy
+#   5. Open 80/443 in the firewall; you can then bind uvicorn to 127.0.0.1
+#      and stop exposing :8000 publicly.
+#
+# gcloud compute firewall-rules create allow-https \
+#   --allow=tcp:80,tcp:443 --source-ranges=0.0.0.0/0 --target-tags=dream
+
+dream.example.com {
+    reverse_proxy 127.0.0.1:8000
+}
